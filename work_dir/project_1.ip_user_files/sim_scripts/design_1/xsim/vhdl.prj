@@ -1,0 +1,28 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_microblaze_0_0/sim/design_1_microblaze_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_dlmb_v10_0/sim/design_1_dlmb_v10_0.vhd" \
+"../../../bd/design_1/ip/design_1_ilmb_v10_0/sim/design_1_ilmb_v10_0.vhd" \
+"../../../bd/design_1/ip/design_1_dlmb_bram_if_cntlr_0/sim/design_1_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_ilmb_bram_if_cntlr_0/sim/design_1_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/design_1/ip/design_1_microblaze_0_axi_intc_0/sim/design_1_microblaze_0_axi_intc_0.vhd" \
+"../../../bd/design_1/ip/design_1_mdm_1_0/sim/design_1_mdm_1_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_clk_wiz_1_100M_0/sim/design_1_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_fifo_mm_s_0_0/sim/design_1_axi_fifo_mm_s_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_iic_0_0/sim/design_1_axi_iic_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_uartlite_0_0/sim/design_1_axi_uartlite_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_uartlite_1_0/sim/design_1_axi_uartlite_1_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_gpio_0_0/sim/design_1_axi_gpio_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_gpio_1_0/sim/design_1_axi_gpio_1_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/rst_sync.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/i2s_ctl.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/DCM.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/Sync_ff.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/i2s_stream.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/i2s_rx_tx.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/d_axi_i2s_audio_v2_0_AXI_L.vhd" \
+"../../../../../IP_repo/design_1/ipshared/b1b2/src/d_axi_i2s_audio_v2_0.vhd" \
+"../../../bd/design_1/ip/design_1_d_axi_i2s_audio_0_0/sim/design_1_d_axi_i2s_audio_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_timer_0_0/sim/design_1_axi_timer_0_0.vhd" \
+
+nosort
