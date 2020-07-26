@@ -1,0 +1,362 @@
+
+/******************************************************************************
+*
+* Copyright (C) 2002 - 2015 Xilinx, Inc.  All rights reserved.
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in
+* all copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+* THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+* THE SOFTWARE.
+*
+*
+*
+******************************************************************************/
+/******************************************************************************/
+/**
+*
+* @file xuartlite_intr_example.c
+*
+* This file contains a design example using the UartLite driver (XUartLite) and
+* hardware device using the interrupt mode.
+*
+* @note
+*
+* The user must provide a physical loopback such that data which is
+* transmitted will be received.
+*
+* MODIFICATION HISTORY:
+* <pre>
+* Ver   Who  Date     Changes
+* ----- ---- -------- -----------------------------------------------
+* 1.00a jhl  02/13/02 First release
+* 1.00b rpm  10/01/03 Made XIntc declaration global
+* 1.00b sv   06/09/05 Minor changes to comply to Doxygen and coding guidelines
+* 2.00a ktn  10/20/09 Updated to use HAL Processor APIs and minor changes
+*		      for coding guidelnes.
+* 3.2   ms   01/23/17 Added xil_printf statement in main function to
+*                     ensure that "Successfully ran" and "Failed" strings
+*                     are available in all examples. This is a fix for
+*                     CR-965028.
+* </pre>
+******************************************************************************/
+
+#include "uartlite.h"
+
+/*
+ * The following counters are used to determine when the entire buffer has
+ * been sent and received.
+ */
+static volatile int TotalReceivedCount;
+static volatile int TotalSentCount;
+
+
+
+
+
+
+XStatus initUartLite( XUartLite * sUartLite,  u16 DeviceId)
+{
+
+
+	/*
+		 * Initialize the UartLite driver so that it is ready to use.
+		 */
+		int Status = XUartLite_Initialize(sUartLite, XPAR_UARTLITE_1_DEVICE_ID);
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+
+		/*
+		 * Perform a self-test to ensure that the hardware was built correctly.
+		 */
+		Status = XUartLite_SelfTest(sUartLite);
+		if (Status != XST_SUCCESS) {
+			return XST_FAILURE;
+		}
+
+		return XST_SUCCESS;
+
+}
+
+/****************************************************************************/
+/**
+*
+* This function does a minimal test on the UartLite device and driver as a
+* design example. The purpose of this function is to illustrate
+* how to use the XUartLite component.
+*
+* This function sends data and expects to receive the same data through the
+* UartLite. The user must provide a physical loopback such that data which is
+* transmitted will be received.
+*
+* This function uses interrupt driver mode of the UartLite device. The calls
+* to the UartLite driver in the handlers should only use the non-blocking
+* calls.
+*
+* @param	DeviceId is the Device ID of the UartLite Device and is the
+*		XPAR_<uartlite_instance>_DEVICE_ID value from xparameters.h.
+*
+* @return	XST_SUCCESS if successful, otherwise XST_FAILURE.
+*
+* @note
+*
+* This function contains an infinite loop such that if interrupts are not
+* working it may never return.
+*
+****************************************************************************/
+int uartLiteIntrSetup( XUartLite * sUartLite,u16 DeviceId)
+{
+
+
+	/*
+	 * Setup the handlers for the UartLite that will be called from the
+	 * interrupt context when data has been sent and received, specify a
+	 * pointer to the UartLite driver instance as the callback reference so
+	 * that the handlers are able to access the instance data.
+	 */
+	XUartLite_SetSendHandler(sUartLite, SendHandler,sUartLite);
+	XUartLite_SetRecvHandler(sUartLite, RecvHandler, sUartLite);
+
+	/*
+	 * Enable the interrupt of the UartLite so that interrupts will occur.
+	 */
+	XUartLite_EnableInterrupt(sUartLite);
+
+	/*
+	 * Initialize the send buffer bytes with a pattern to send and the
+	 * the receive buffer bytes to zero to allow the receive data to be
+	 * verified.
+	 */
+	for (int Index = 0; Index < TEST_BUFFER_SIZE; Index++) {
+		ReceiveBuffer[Index] = 0;
+	}
+
+	/*
+		 * Start receiving data before sending it since there is a loopback.
+		 */
+		XUartLite_Recv(sUartLite, ReceiveBuffer, TEST_BUFFER_SIZE);
+
+	return XST_SUCCESS;
+}
+
+/*****************************************************************************/
+/**
+*
+* This function is the handler which performs processing to send data to the
+* UartLite. It is called from an interrupt context such that the amount of
+* processing performed should be minimized. It is called when the transmit
+* FIFO of the UartLite is empty and more data can be sent through the UartLite.
+*
+* This handler provides an example of how to handle data for the UartLite,
+* but is application specific.
+*
+* @param	CallBackRef contains a callback reference from the driver.
+*		In this case it is the instance pointer for the UartLite driver.
+* @param	EventData contains the number of bytes sent or received for sent
+*		and receive events.
+*
+* @return	None.
+*
+* @note		None.
+*
+****************************************************************************/
+void SendHandler(void *CallBackRef, unsigned int EventData)
+{
+	xil_printf("Sent");
+	TotalSentCount = EventData;
+}
+/****************************************************************************/
+/**
+*
+* This function is the handler which performs processing to receive data from
+* the UartLite. It is called from an interrupt context such that the amount of
+* processing performed should be minimized.  It is called data is present in
+* the receive FIFO of the UartLite such that the data can be retrieved from
+* the UartLite. The size of the data present in the FIFO is not known when
+* this function is called.
+*
+* This handler provides an example of how to handle data for the UartLite,
+* but is application specific.
+*
+* @param	CallBackRef contains a callback reference from the driver, in
+*		this case it is the instance pointer for the UartLite driver.
+* @param	EventData contains the number of bytes sent or received for sent
+*		and receive events.
+*
+* @return	None.
+*
+* @note		None.
+*
+****************************************************************************/
+void RecvHandler(void *CallBackRef, unsigned int EventData)
+{
+
+	TotalReceivedCount = EventData;
+	xil_printf("TotalReceivedCount %d\r\n",TotalReceivedCount);
+
+	if(TotalReceivedCount )
+	{
+		for(int i=0;i<TotalReceivedCount; i++)
+		xil_printf("BM64 RESPONSE: 0x%00x\r\n",ReceiveBuffer[i]);
+
+	}
+
+
+}
+
+
+
+
+
+/*****************(Functions) Definitions *********************/
+ uint8_t calculateChecksum(uint8_t* startByte, uint8_t* endByte)
+{
+    uint8_t checksum = 0;
+    while(startByte <= endByte)
+    {
+        checksum += *startByte;
+        startByte++;
+    }
+    checksum = ~checksum + 1;
+    return checksum;
+}
+
+/*Change device name */
+void changeModuleName( XUartLite * sUartLite)
+{
+
+
+	//write
+	uint8_t command[9];
+		//write cmd
+			command[0] = 0x01;
+			command[1] = 0x27;
+			command[2] = 0xFC;
+			command[3] = 0x03; //length of the fowing bytes
+			//address reg
+			command[4] = 0x01; //ADDR
+			command[5] = 0xA2; // ADDR
+			command[6] = 0x22; //  name lengh
+		  	for(int i=0; i < 7;i ++)
+	  		 XUartLite_Send(sUartLite, &command[i], 1);
+
+
+
+
+
+}
+/*Example usising write and read
+/
+ *
+ * Parameters:
+ *  @param sUartLite pontier to the uart driver
+ /* @param	nBytes is the number of bytes to be send
+ /* @param	data is the byte  data to send
+ /*
+ /* @return	None.
+ /*
+ */
+
+void exampleReadWriteEeprom( XUartLite * sUartLite){
+
+
+	uint8_t address[2];
+	//Adress 0x779
+	address[1]=0x07;
+	address[0]=0x80;
+
+
+
+
+	//write
+	uint8_t nBytes = 4; //Data bytes to write and read
+
+
+
+	 uint8_t data[4];
+	 data[0] = 0x5A; // (data byte) name lengh
+	 data[1] = 0x59;	// (data byte)
+	 data[2] = 0x42;	// (data byte)
+	 data[3] = 0x4F;	// (data byte)
+	 writeEeprom( sUartLite, address, nBytes,data);
+
+
+	readEeprom( sUartLite,nBytes, address);
+
+
+
+
+}
+
+/*Makes a  partial write in the EEPROM of the BM64 module,(Flash test mode)  only
+/
+ *
+ * Parameters:
+ *  @param sUartLite pointer to the uart driver
+ /* @param	nBytes is the number of bytes to be send
+ /* @param	data is the byte  data to send
+ /*
+ /* @return	None.
+ /*
+ */
+void writeEeprom( XUartLite * sUartLite,uint8_t address[2],uint8_t nBytes,uint8_t* data)
+{
+	uint8_t command[6];
+	//Write Cmd
+	command[0] = 0x01; //Header 1
+	command[1] = 0x27; // Header 2
+	command[2] = 0xFC; //Header 3
+	command[3] = nBytes + 2; //Lengh data
+	command[4] = address[1];
+	command[5] = address [0];
+
+	for(int i=0;i < 6; i++)
+	 XUartLite_Send(sUartLite, &command[i], 1);
+
+	for(int i=0; i < nBytes;i ++)
+		 XUartLite_Send(sUartLite, &data[i], 1);
+
+}
+
+/*does a read in the EEPROM of the BM64 module,(Flash test mode)  only
+/
+ *
+ * Parameters:
+ *  @param sUartLite pointer to the uart driver
+ * @param	nBytes is the number of bytes to be read
+ * @param	address reg of the data to be read
+ *
+ * @return	None.
+ *
+ */
+void readEeprom( XUartLite * sUartLite,uint8_t nBytes,uint8_t address[2])
+{
+	uint8_t command[7];
+	//Write Cmd
+	command[0] = 0x01; //Header 1
+	command[1] = 0x29; // Header 2
+	command[2] = 0xFC; //Header 3
+	command[3] = 0x03; //length following bytes
+	command[4] = address[1];
+	command[5] = address [0];
+	command[6] = nBytes;
+
+	for(int i=0;i < 7; i++)
+	 XUartLite_Send(sUartLite, &command[i], 1);
+
+}
+
+

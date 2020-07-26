@@ -1,0 +1,10 @@
+23:48:20 **** Build of configuration Debug for project XADC_DEMO_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 52811 C:/Users/umber/ZYBO_WORKSPACE/XACD/export/XACD/XACD.xpfm standalone_domain C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/umber/ZYBO_WORKSPACE/XACD/export/XACD/XACD.xpfm --sys_config XACD --bif C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO_system/Debug/system.bif --bitstream C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO/Debug/XADC_DEMO.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2019.2/bin/bootgen  -image C:/Users/umber/ZYBO_WORKSPACE/XADC_DEMO_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+23:48:29 Build Finished (took 8s.621ms)
+

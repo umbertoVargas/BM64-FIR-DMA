@@ -1,0 +1,16 @@
+Change Component Footprint: Designator=RT1 Old Footprint=6-0805_N New Footprint=6-0805_L
+Change component parameters: Designator = "RT1"; Footprint = "6-0805_L"; UniqueID = "\RKICWJBO"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = "RESC2012"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BC2562CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Chip Resistor 0805 Case Size"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "6-0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Mar-2003"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "R at 25"; Value = "100k"; VariantName = "[No Variations]"
+Added Room: Name=Sheet1
+Added Room: Name=Sheet2
+Added Room: Name=Sheet3

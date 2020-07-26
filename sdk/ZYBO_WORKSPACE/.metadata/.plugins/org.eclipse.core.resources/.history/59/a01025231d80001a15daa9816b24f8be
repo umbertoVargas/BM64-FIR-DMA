@@ -1,0 +1,326 @@
+
+
+#include "fifo.h"
+#include "../dma/dma.h"
+
+
+
+static u32 DestinationBuffer[MAX_DATA_BUFFER_SIZE];
+static int count=0;
+static int write_Tx=0;
+XStatus fnInitFifo(XLlFifo *psFifo, u16 DeviceId){
+
+	int Status;
+	Status = XST_SUCCESS;
+	XLlFifo_Config *Config;
+
+
+
+
+
+	/* Initialize the Device Configuration Interface driver */
+	Config = XLlFfio_LookupConfig(DeviceId);
+	if (!Config) {
+		xil_printf("No config found for %d\r\n", DeviceId);
+		return XST_FAILURE;
+	}
+
+	/*
+	 * This is where the virtual address would be used, this example
+	 * uses physical address.
+	 */
+	Status = XLlFifo_CfgInitialize(psFifo, Config,Config->BaseAddress);
+	if (Status != XST_SUCCESS) {
+		xil_printf("Initialization failed\n\r");
+		return Status;
+	}
+
+	/* Check for the Reset value */
+
+	Status = XLlFifo_Status(psFifo);
+	XLlFifo_IntClear(psFifo,0xFFFFFFFF);
+	Status = XLlFifo_Status(psFifo);
+	if(Status != 0x0) {
+		xil_printf("\n ERROR : Reset value of ISR0 : 0x%x\t"
+			    "Expected : 0x0\n\r",
+			    XLlFifo_Status(psFifo));
+		return XST_FAILURE;
+	}
+
+
+	 return XST_SUCCESS;
+
+
+
+}
+
+/*****************************************************************************/
+/**
+*
+* This is the interrupt handler for the fifo it checks for the type of interrupt
+* and proceeds according to it.
+*
+* @param	InstancePtr is a reference to the Fifo device instance.
+*
+* @return	None.
+*
+* @note		None.
+*
+******************************************************************************/
+
+void FifoHandler(XLlFifo *InstancePtr)
+{
+	u32 Pending;
+
+
+		Pending = XLlFifo_IntPending(InstancePtr);
+		while (Pending) {
+			if (Pending & XLLF_INT_ERROR_MASK){
+				FifoErrorHandler(InstancePtr, Pending);
+				XLlFifo_IntClear(InstancePtr, XLLF_INT_ERROR_MASK);
+
+			}
+
+
+
+			else if (Pending & XLLF_INT_TC_MASK) {
+
+				 FifoSendHandler(InstancePtr);
+				 XLlFifo_IntClear(InstancePtr, Pending);
+				 count_bytes+=words_number*4;
+				 words_number=0;
+				 /* Disable the interrupt for the FIFO*/
+				 XLlFifo_IntDisable(InstancePtr,XLLF_INT_ALL_MASK);//Enable  all
+
+			}
+
+			else if (Pending &  XLLF_INT_RC_MASK ) {
+                    FifoRecvHandler(InstancePtr);
+					XLlFifo_IntClear(InstancePtr, XLLF_INT_RC_MASK );
+					WriteTx(InstancePtr);
+
+
+
+		}
+
+		 else {
+
+				XLlFifo_IntClear(InstancePtr,Pending);
+			}
+			Pending = XLlFifo_IntPending(InstancePtr);
+		}
+}
+
+
+
+
+
+/*****************************************************************************/
+/**
+*
+* TxSend routine, It will send the requested amount of data at the
+* specified addr.
+*
+* @param	InstancePtr is a pointer to the instance of the
+*		XLlFifo component.
+*
+* @param	SourceAddr is the address of the memory
+*
+* @return
+*		-XST_SUCCESS to indicate success
+*		-XST_FAILURE to indicate failure
+*
+* @note		None
+*
+******************************************************************************/
+int WriteTx(XLlFifo *InstancePtr)
+{
+		int j;
+		int txVancanccy;
+
+
+			txVancanccy=Xil_In32((InstancePtr->BaseAddress) + XLLF_TDFV_OFFSET);
+			/* to read the transmit FIFO vacancy register */
+			//xil_printf("txVancanccy: 0x%08x\n\r",txVancanccy );
+
+			/* to set transmit destination address */
+			Xil_Out32(((InstancePtr->BaseAddress) + XLLF_TDR_OFFSET), 0x00000002);
+			if(txVancanccy)
+			{
+
+
+				for (j=0; j <count ; j++)
+					{
+							/* to write data in the transmit data FIFO data write port, eight words */
+							Xil_Out32(((InstancePtr->BaseAddress) + XLLF_TDFD_OFFSET), *(DestinationBuffer+j));
+
+					}
+			}
+
+				TxSend(InstancePtr);
+
+
+
+
+		/* Transmission Complete */
+		return XST_SUCCESS;
+}
+/*****************************************************************************/
+/**
+*
+* TxSend routine, It will send the requested amount of data at the
+* specified addr.
+*
+* @param	InstancePtr is a pointer to the instance of the
+*		XLlFifo component.
+*
+* @param	SourceAddr is the address of the memory
+*
+* @return
+*		-XST_SUCCESS to indicate success
+*		-XST_FAILURE to indicate failure
+*
+* @note		None
+*
+******************************************************************************/
+int TxSend(XLlFifo *InstancePtr)
+{
+//mod operation bug on Microblaze
+//	if(!(words_number % 8000))
+
+
+		/* Start Transmission by writing transmission length into the TLR */
+		XLlFifo_iTxSetLen(InstancePtr,count*4);
+
+
+
+		/* Transmission Complete */
+		return XST_SUCCESS;
+}
+
+
+/*****************************************************************************/
+/**
+*
+* This is the Receive handler callback function.
+*
+* @param	InstancePtr is a reference to the Fifo device instance.
+*
+* @return	None.
+*
+* @note		None.
+*
+******************************************************************************/
+ void FifoRecvHandler(XLlFifo *InstancePtr)
+{
+
+
+	 int i;
+	 	u32 RxWord;
+	 	static u32 ReceiveLength;
+	 	write_Tx=0;
+	 	count=0;
+	 	if(XLlFifo_iRxOccupancy(InstancePtr)>512)
+	 	{
+
+
+		    ReceiveLength = (XLlFifo_iRxGetLen(InstancePtr))/WORD_SIZE;
+
+
+
+			for (i=0; i < ReceiveLength; i++)
+				 {
+
+
+						RxWord = XLlFifo_RxGetWord(InstancePtr);
+						*(DestinationBuffer+i) = RxWord;
+						words_number+=1;
+
+						count+=1;
+				 }
+
+
+		 }
+
+
+
+
+}
+
+
+/*****************************************************************************/
+/**
+*
+* This is the Error handler callback function and this function increments the
+* the error counter so that the main thread knows the number of errors.
+*
+* @param	InstancePtr is a pointer to Instance of AXI FIFO device.
+*
+* @param	Pending is a bitmask of the pending interrupts.
+*
+* @return	None.
+*
+* @note		None.
+*
+******************************************************************************/
+  void FifoErrorHandler(XLlFifo *InstancePtr, u32 Pending)
+ {
+ 	if (Pending & XLLF_INT_RPURE_MASK) {
+ 		XLlFifo_RxReset(InstancePtr);
+ 	} else if (Pending & XLLF_INT_RPORE_MASK) {
+ 		XLlFifo_RxReset(InstancePtr);
+ 	} else if(Pending & XLLF_INT_RPUE_MASK) {
+ 		XLlFifo_RxReset(InstancePtr);
+ 	} else if (Pending & XLLF_INT_TPOE_MASK) {
+ 		XLlFifo_TxReset(InstancePtr);
+ 	} else if (Pending & XLLF_INT_TSE_MASK) {
+ 	}
+
+ }
+
+/*****************************************************************************/
+/**
+*
+* This function disables the interrupts for the AXI FIFO device.
+*
+* @param	IntcInstancePtr is the pointer to the INTC component instance
+* @param	FifoIntrId is interrupt ID associated for the FIFO component
+*
+* @return	None
+*
+* @note		None
+*
+******************************************************************************/
+  void DisableIntrSystem(INTC IntcInstancePtr, u16 FifoIntrId)
+ {
+ #ifdef XPAR_INTC_0_DEVICE_ID
+ 	/* Disconnect the interrupts */
+ 	XIntc_Disconnect(&IntcInstancePtr, FifoIntrId);
+ #else
+ 	XScuGic_Disconnect(&IntcInstancePtr, FifoIntrId);
+ #endif
+ }
+
+
+  /*****************************************************************************/
+  /*
+  *
+  * This is the transfer Complete Interrupt handler function.
+  *
+  * This clears the transmit complete interrupt and set the done flag.
+  *
+  * @param	InstancePtr is a pointer to Instance of AXI FIFO device.
+  *
+  * @return	None
+  *
+  * @note		None
+  *
+  ******************************************************************************/
+   void FifoSendHandler(XLlFifo *InstancePtr)
+  {
+
+		XLlFifo_IntClear(InstancePtr, XLLF_INT_TC_MASK);
+
+
+
+  }

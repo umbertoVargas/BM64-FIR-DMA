@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=ADCDAT Pin=P1-8
+Added Pin To Net: NetName=ADCDAT Pin=P1-7
+Added Member To Class: ClassName=Sheet1 Member=Component S2 SW DIP-2

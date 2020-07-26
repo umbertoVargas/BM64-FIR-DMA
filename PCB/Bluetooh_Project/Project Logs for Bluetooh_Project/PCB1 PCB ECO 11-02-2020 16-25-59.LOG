@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=EAN Pin=P2-3
+Removed Pin From Net: NetName=FPGA_WAKE_UP Pin=P2-4
+Removed Pin From Net: NetName=I_DETECT Pin=P2-8
+Removed Pin From Net: NetName=BT_WAKE_UP Pin=P2-9
+Added Pin To Net: NetName=FPGA_WAKE_UP Pin=P2-3
+Added Pin To Net: NetName=EAN Pin=P2-4
+Added Pin To Net: NetName=BT_WAKE_UP Pin=P2-8
+Added Pin To Net: NetName=I_DETECT Pin=P2-9

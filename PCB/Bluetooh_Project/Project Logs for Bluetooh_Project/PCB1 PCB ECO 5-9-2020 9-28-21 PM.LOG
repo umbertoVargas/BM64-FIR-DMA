@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=DACDAT Pin=P2-2
+Removed Pin From Net: NetName=RST_N Pin=P2-8
+Added Pin To Net: NetName=RST_N Pin=P2-2
+Added Pin To Net: NetName=DACDAT Pin=P2-8
+Added Room: Name=Sheet1

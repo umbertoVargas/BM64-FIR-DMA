@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=CO33 Pin=M2-4
+Removed Pin From Net: NetName=CO11 Pin=M2-10
+Removed Pin From Net: NetName=CO66 Pin=M2-15
+Added Pin To Net: NetName=CO66 Pin=M2-10
+Added Pin To Net: NetName=CO11 Pin=M2-15

@@ -1,0 +1,66 @@
+2020-07-22T12:38:35.162481100255-12:38:35 **** Incremental Build of configuration Debug for project DMA ****
+000-make all 
+000-'Building file: ../src/uartlite/uartlite.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uartlite/uartlite.o" -IC:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uartlite/uartlite.d" -MT"src/uartlite/uartlite.o" -o "src/uartlite/uartlite.o" "../src/uartlite/uartlite.c"
+000/DMA/src/uartlite/uartlite.c278-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:278:2: warning: "/*" within comment [-Wcomment]
+000-  /* @param nBytes is the number of bytes to be send
+000-   
+000/DMA/src/uartlite/uartlite.c279-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:279:2: warning: "/*" within comment [-Wcomment]
+000-  /* @param data is the byte  data to send
+000-   
+000/DMA/src/uartlite/uartlite.c280-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:280:2: warning: "/*" within comment [-Wcomment]
+000-  /*
+000-   
+000/DMA/src/uartlite/uartlite.c281-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:281:2: warning: "/*" within comment [-Wcomment]
+000-  /* @return None.
+000-   
+000/DMA/src/uartlite/uartlite.c282-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:282:2: warning: "/*" within comment [-Wcomment]
+000-  /*
+000-   
+000/DMA/src/uartlite/uartlite.c321-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:321:2: warning: "/*" within comment [-Wcomment]
+000-  /* @param nBytes is the number of bytes to be send
+000-   
+000/DMA/src/uartlite/uartlite.c322-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:322:2: warning: "/*" within comment [-Wcomment]
+000-  /* @param data is the byte  data to send
+000-   
+000/DMA/src/uartlite/uartlite.c323-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:323:2: warning: "/*" within comment [-Wcomment]
+000-  /*
+000-   
+000/DMA/src/uartlite/uartlite.c324-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:324:2: warning: "/*" within comment [-Wcomment]
+000-  /* @return None.
+000-   
+000/DMA/src/uartlite/uartlite.c325-1-1"/*" within comment [-Wcomment]1-../src/uartlite/uartlite.c:325:2: warning: "/*" within comment [-Wcomment]
+000-  /*
+000-   
+000-'Finished building: ../src/uartlite/uartlite.c'
+000-' '
+000-'Building file: ../src/display/led.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/display/led.o" -IC:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/display/led.d" -MT"src/display/led.o" -o "src/display/led.o" "../src/display/led.c"
+000-../src/display/led.c: In function 'runLed':
+000/DMA/src/display/led.c11-1-1unused variable 'rows' [-Wunused-variable]1-../src/display/led.c:11:6: warning: unused variable 'rows' [-Wunused-variable]
+000-  u32 rows=0b1;
+000-      ^~~~
+000/DMA/src/display/led.c10-1-1unused variable 'o_data' [-Wunused-variable]1-../src/display/led.c:10:6: warning: unused variable 'o_data' [-Wunused-variable]
+000-  u32 o_data = 0;
+000-      ^~~~~~
+000/DMA/src/display/led.c9-1-1unused variable 'o_demux_reg' [-Wunused-variable]1-../src/display/led.c:9:6: warning: unused variable 'o_demux_reg' [-Wunused-variable]
+000-  u32 o_demux_reg = 0;
+000-      ^~~~~~~~~~~
+000-'Finished building: ../src/display/led.c'
+000-' '
+000-'Building target: DMA.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "DMA.elf"  ./src/userio/userio.o  ./src/uartlite/uartlite.o  ./src/intc/intc.o  ./src/iic/iic.o  ./src/fifo/fifo.o  ./src/dma/dma.o  ./src/display/led.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: DMA.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size DMA.elf  |tee "DMA.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  46544	   1992	   5752	  54288	   d410	DMA.elf
+000-'Finished building: DMA.elf.size'
+000-' '
+00255-
+12:38:36 Build Finished (took 1s.677ms)
+

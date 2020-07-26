@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VDD_IO Pin=P1-6
+Removed Pin From Net: NetName=3.3 VCC Pin=P2-6
+Removed Pin From Net: NetName=3.3 VCC Pin=P2-12
+Added Pin To Net: NetName=3.3 VCC Pin=P1-6

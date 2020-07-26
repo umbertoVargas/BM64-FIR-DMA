@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=UART_TX Pin=P2-1
+Removed Pin From Net: NetName=UART_RX Pin=P2-2
+Removed Pin From Net: NetName=ADCDAT Pin=U1-1
+Added Pin To Net: NetName=UART_TX Pin=P1-9
+Added Pin To Net: NetName=UART_RX Pin=P1-10

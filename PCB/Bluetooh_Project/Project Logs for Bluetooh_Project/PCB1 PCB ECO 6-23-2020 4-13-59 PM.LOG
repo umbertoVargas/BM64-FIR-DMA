@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=L1 Old Footprint=Diode1206 New Footprint=Diode1206 - duplicate1
+Change Component Footprint: Designator=L2 Old Footprint=Diode1206 New Footprint=Diode1206 - duplicate1
+Added Pin To Net: NetName=NetL1_A Pin=L1-A
+Added Pin To Net: NetName=NetIC1_23 Pin=L1-K
+Added Pin To Net: NetName=NetL2_A Pin=L2-A
+Added Pin To Net: NetName=NetIC1_22 Pin=L2-K

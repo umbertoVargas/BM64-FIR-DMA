@@ -1,0 +1,2080 @@
+!SESSION 2020-07-22 12:37:44.343 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\umber\ZYBO_WORKSPACE\.metadata\.bak_0.log
+Created Time: 2020-07-22 12:39:07.263
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:39:07.267
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-7: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:39:07.372
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-7: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:39:08.090
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-7: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:39:08.096
+!MESSAGE XSCT Command: [con], Thread: Worker-7: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:39:08.109
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 12:39:08.137
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:27.785
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-129
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:27.809
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-129
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.824
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.832
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.836
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.853
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.858
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.863
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.867
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.872
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.876
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.885
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.890
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.908
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.913
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.923
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.927
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.946
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.951
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.960
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.963
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.981
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.986
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.995
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:28.999
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.018
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.022
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.032
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.036
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.055
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.060
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.069
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.074
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.093
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.097
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.116
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.121
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.706
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.711
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.727
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.731
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.805
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:29.810
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.815
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.833
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.843
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.848
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.866
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.871
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.924
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:32.929
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:34.150
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:34.175
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:34.870
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:34.874
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.133
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_0]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.138
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.144
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.148
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.165
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.169
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.175
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.179
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.483
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.488
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.513
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.519
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.525
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.530
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.549
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.554
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.806
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.811
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.818
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.874
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.903
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.910
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:40:37.927
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 12:40:37.936
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:15.055
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-183
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:15.064
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-183
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.058
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.066
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.071
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.085
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.090
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.096
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.100
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.105
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.109
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.119
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.123
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.142
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.147
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.156
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.161
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.179
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.183
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.192
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.196
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.216
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.220
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.230
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.234
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.257
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.266
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.270
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.288
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.293
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.302
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.307
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.325
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.329
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.348
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.354
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.359
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:16.363
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:17.072
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:17.077
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:17.142
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:17.146
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.152
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.171
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.181
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.186
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.204
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.209
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.912
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:20.917
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:22.136
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:22.159
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:22.858
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:22.862
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.193
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_1]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.198
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.203
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.207
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.227
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.231
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.237
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.241
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.536
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.541
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.554
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.558
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.567
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.571
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.589
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.594
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.855
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.861
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.867
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.919
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.949
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.959
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 12:47:25.974
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 12:47:25.984
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:05.345
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-236
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:05.354
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-236
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.348
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.356
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#4]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.361
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.373
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.378
+!MESSAGE XSCT Command: [version -server], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.383
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.387
+!MESSAGE XSCT Command: [version], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.391
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.395
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.404
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.409
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.426
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.430
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.440
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.444
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.463
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.468
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.477
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.482
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.500
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.505
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.514
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.519
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.538
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.542
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.551
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.555
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.575
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.580
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.589
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.593
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.611
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.616
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.635
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.640
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.645
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:06.649
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:07.345
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:07.350
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:07.412
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:07.416
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.423
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.441
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.452
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.457
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.475
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.479
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.499
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:10.504
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:11.725
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:11.751
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:11.764
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:11.768
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.113
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_2]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.118
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.123
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.128
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.139
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.144
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.149
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.154
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.471
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.475
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.489
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.494
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.502
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.506
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.526
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.531
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.788
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.792
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.798
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.846
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.885
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.891
+!MESSAGE XSCT Command: [con], Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 13:45:14.908
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-17: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 13:45:14.916
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:03.975
+!MESSAGE XSCT Command: [disconnect tcfchan#4], Thread: Thread-289
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:03.986
+!MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-289
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:04.977
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:04.987
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:04.992
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.006
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.011
+!MESSAGE XSCT Command: [version -server], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.018
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.023
+!MESSAGE XSCT Command: [version], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.027
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.032
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.041
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.045
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.063
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.068
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.078
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.081
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.100
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.104
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.114
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.117
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.136
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.141
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.150
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.155
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.174
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.178
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.188
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.192
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.213
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.223
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.227
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.245
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.249
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.269
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.273
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.280
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:05.284
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:06.609
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:06.614
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:06.677
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:06.681
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.688
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.710
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.720
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.726
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.744
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.748
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.770
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:09.774
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:10.990
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:11.018
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:11.042
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:11.047
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.406
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_3]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.410
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.416
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.420
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.432
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.436
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.441
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.446
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.791
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.795
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.811
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.816
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.822
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.826
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.846
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:13.850
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.111
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.115
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.121
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.164
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.186
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.191
+!MESSAGE XSCT Command: [con], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 14:59:14.202
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 14:59:14.208
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:34.469
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-342
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:34.477
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-342
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.479
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.489
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#6]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.493
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.506
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.510
+!MESSAGE XSCT Command: [version -server], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.516
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.520
+!MESSAGE XSCT Command: [version], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.524
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.528
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.537
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.541
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.560
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.566
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.576
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.580
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.599
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.604
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.614
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.618
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.636
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.641
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.650
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.654
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.673
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.677
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.686
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.691
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.710
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.714
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.724
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.728
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.747
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.752
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.770
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.775
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.780
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.784
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.810
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.816
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.882
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:35.887
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.892
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.922
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.932
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.936
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.955
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.959
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.978
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:38.983
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:40.203
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:40.229
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:40.244
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:40.249
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.800
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_4]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.805
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.810
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.814
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.826
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.830
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.840
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:42.844
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.211
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.215
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.228
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.233
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.238
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.243
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.264
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.268
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.525
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.530
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.536
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.583
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.606
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.613
+!MESSAGE XSCT Command: [con], Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:01:43.624
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-34: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 15:01:43.630
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '6'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:44.879
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-397
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:44.888
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-397
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.885
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.897
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#7]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.902
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.918
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.922
+!MESSAGE XSCT Command: [version -server], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.928
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.932
+!MESSAGE XSCT Command: [version], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.937
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.941
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.952
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.957
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.976
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.981
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.990
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:45.994
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.014
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.018
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.028
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.032
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.051
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.056
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.065
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.069
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.087
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.101
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.105
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.123
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.128
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.137
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.141
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.159
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.163
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.182
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.186
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.191
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.194
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.217
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.227
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.294
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:46.298
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.305
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.324
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.334
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.338
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.357
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.361
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.382
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:49.386
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:50.606
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:50.631
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:50.646
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:50.651
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.740
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_5]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.745
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.750
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.754
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.765
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.770
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.780
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:52.784
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.092
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.096
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.110
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.115
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.120
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.125
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.144
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.149
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.410
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.415
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.422
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.480
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.503
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.508
+!MESSAGE XSCT Command: [con], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:22:53.520
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 15:22:53.525
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '7'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:17.448
+!MESSAGE XSCT Command: [disconnect tcfchan#7], Thread: Thread-451
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:17.458
+!MESSAGE XSCT command with result: [disconnect tcfchan#7], Result: [null, ]. Thread: Thread-451
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.455
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.465
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#8]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.469
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.483
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.489
+!MESSAGE XSCT Command: [version -server], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.494
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.499
+!MESSAGE XSCT Command: [version], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.503
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.507
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.516
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.521
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.539
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.543
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.553
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.557
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.575
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.580
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.589
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.594
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.613
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.617
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.627
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.631
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.649
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.654
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.663
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.667
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.685
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.690
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.699
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.703
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.722
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.726
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.745
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.749
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.754
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.759
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.775
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.781
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.844
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:18.848
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.853
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.872
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.881
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.885
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.904
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.909
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.928
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:21.933
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:23.151
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:23.175
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:23.189
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:23.194
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.410
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_6]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.414
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.422
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.426
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.438
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.441
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.447
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.451
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.744
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.748
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.774
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.778
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.784
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.788
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.809
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:25.814
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.075
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.080
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.102
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.149
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.173
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.178
+!MESSAGE XSCT Command: [con], Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:26:26.191
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-12: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 15:26:26.197
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '8'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:04.415
+!MESSAGE XSCT Command: [disconnect tcfchan#8], Thread: Thread-504
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:04.426
+!MESSAGE XSCT command with result: [disconnect tcfchan#8], Result: [null, ]. Thread: Thread-504
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.418
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.427
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#9]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.431
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.444
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.449
+!MESSAGE XSCT Command: [version -server], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.453
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.457
+!MESSAGE XSCT Command: [version], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.462
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.465
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.473
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.478
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.496
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.501
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.511
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.516
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.534
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.539
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.548
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.552
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.571
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.575
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.584
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.588
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.606
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.611
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.620
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.624
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.643
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.647
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.657
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.661
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.679
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.683
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.702
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo 210279572559A" && level == 0}], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.707
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.720
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.725
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.741
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.746
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.812
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:05.817
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.822
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.842
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.851
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo 210279572559A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.856
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.875
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.879
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.899
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo 210279572559A" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:08.905
+!MESSAGE XSCT Command: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:10.122
+!MESSAGE XSCT command with result: [fpga -file C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/bitstream/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:10.146
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:10.159
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:10.163
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.479
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, design_1_wrapper_7]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.483
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.489
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.493
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.506
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.510
+!MESSAGE XSCT Command: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.516
+!MESSAGE XSCT command with result: [source C:/Users/umber/ZYBO_WORKSPACE/DMA/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.520
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.855
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.860
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.886
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.891
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.897
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.900
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.924
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:12.928
+!MESSAGE XSCT Command: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.181
+!MESSAGE XSCT command with result: [dow C:/Users/umber/ZYBO_WORKSPACE/DMA/Debug/DMA.elf], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.186
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.192
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.243
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.273
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.281
+!MESSAGE XSCT Command: [con], Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 15:35:13.292
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-44: Launching Debugger_DMA_programando_FPGA
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 15:35:13.298
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '9'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 20:18:44.515
+!MESSAGE XSCT Command: [disconnect tcfchan#9], Thread: Thread-558
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-22 20:18:44.536
+!MESSAGE XSCT command with result: [disconnect tcfchan#9], Result: [null, ]. Thread: Thread-558
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 20:18:44.657
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-07-22 20:18:44.707
+!MESSAGE Executed Webtalk command
+!SESSION 2020-07-26 17:08:30.239 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-07-26 17:08:52.412
+!MESSAGE Both 'com.autoesl.autopilot.ui.models' and 'com.autoesl.autopilot.ui.models' register a package for 'com.autoesl.autopilot.solution'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-26 17:08:56.786
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-26 17:08:56.799
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2020-07-26 17:08:56.804
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2020-07-26 17:09:03.243
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-07-26 17:09:03.253
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.044
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.050
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.073
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.079
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.086
+!MESSAGE XSCT Command: [setws C:/Users/umber/ZYBO_WORKSPACE], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.092
+!MESSAGE XSCT Command: [enable_info_messages], Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.098
+!MESSAGE XSCT command with result: [setws C:/Users/umber/ZYBO_WORKSPACE], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:06.104
+!MESSAGE XSCT command with result: [enable_info_messages], Result: [null, ]. Thread: Worker-4: Enabling info messages in xsct server
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:07.309
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-07-26 17:09:07.419
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\umber'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2020-07-26 17:09:09.477
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@3e431c8b} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2020-07-26 17:09:09.483
+!MESSAGE Conflicting handlers for com.xilinx.sdx.system.core.importSourcesCommand: {com.xilinx.sdx.system.core.handler.ImportSourcesHandler@3e431c8b} vs {com.xilinx.sdx.system.core.handler.ImportSourcesHandler}
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:10.973
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:10.977
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-07-26 17:09:10.983
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2019.2/data]. Thread: Worker-2: Initializing s/w repositories

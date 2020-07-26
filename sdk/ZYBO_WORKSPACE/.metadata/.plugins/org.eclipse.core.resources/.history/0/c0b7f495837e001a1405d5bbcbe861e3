@@ -1,0 +1,59 @@
+
+
+
+#ifndef FIFO_H_
+#define FIFO_H_
+#include "../demo.h"
+#include "xstatus.h"
+#include "xllfifo.h"
+#include "xllfifo_hw.h"
+#include <stdio.h>
+#include "xparameters.h"
+#define FIFO_DEV_ID   	XPAR_AXI_FIFO_0_DEVICE_ID
+
+
+
+#define WORD_SIZE 4			/* Size of words in bytes */
+
+#define MAX_PACKET_LEN 32
+// Audio constants
+// Number of seconds to record/playback
+#define NR_SEC_TO_REC_PLAY		5
+
+
+
+// ADC/DAC sampling rate in Hz
+//#define AUDIO_SAMPLING_RATE		1000
+#define AUDIO_SAMPLING_RATE	  96000
+
+// Number of samples to record/playback
+#define NR_AUDIO_SAMPLES		(NR_SEC_TO_REC_PLAY*AUDIO_SAMPLING_RATE)
+/* Timeout loop counter for reset
+ */
+
+
+
+
+#define MAX_DATA_BUFFER_SIZE 500
+#define FIFO_INTR_ID		XPAR_INTC_0_LLFIFO_0_VEC_ID
+/*
+ * Flags interrupt handlers use to notify the application context the events.
+ */
+volatile int fifoDone;
+volatile int words_number;
+volatile int counter_Dddr_Bytes;
+volatile int dma_Receive;
+volatile int receive_lengh;
+
+
+
+
+int TxSend(XLlFifo *InstancePtr);
+ void FifoRecvHandler(XLlFifo *Fifo);
+ void FifoErrorHandler(XLlFifo *InstancePtr, u32 Pending);
+ void FifoSendHandler(XLlFifo *InstancePtr);
+void DisableIntrSystem( INTC IntcInstancePtr, u16 FifoIntrId);
+XStatus  fnInitFifo(XLlFifo *psFifo, u16 DeviceId);
+void FifoHandler(XLlFifo *Fifo);
+int WriteTx(XLlFifo *InstancePtr);
+#endif /*FIFO_H_ */

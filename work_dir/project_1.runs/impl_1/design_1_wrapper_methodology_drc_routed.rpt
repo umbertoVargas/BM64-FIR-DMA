@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Sat Jul 18 17:21:21 2020
+| Date         : Tue Jul 21 17:35:29 2020
 | Host         : LAPTOP-LF1M0JDJ running 64-bit major release  (build 9200)
 | Command      : report_methodology -file design_1_wrapper_methodology_drc_routed.rpt -pb design_1_wrapper_methodology_drc_routed.pb -rpx design_1_wrapper_methodology_drc_routed.rpx
 | Design       : design_1_wrapper
@@ -23,16 +23,17 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 12
-+----------+----------+-------------------------------------------------+------------+
-| Rule     | Severity | Description                                     | Violations |
-+----------+----------+-------------------------------------------------+------------+
-| LUTAR-1  | Warning  | LUT drives async reset alert                    | 6          |
-| PDRC-190 | Warning  | Suboptimally placed synchronized register chain | 2          |
-| TIMING-9 | Warning  | Unknown CDC Logic                               | 1          |
-| ULMTCS-1 | Warning  | Control Sets use limits recommend reduction     | 1          |
-| XDCB-5   | Warning  | Runtime inefficient way to find pin objects     | 2          |
-+----------+----------+-------------------------------------------------+------------+
+             Violations found: 28
++-----------+----------+-------------------------------------------------+------------+
+| Rule      | Severity | Description                                     | Violations |
++-----------+----------+-------------------------------------------------+------------+
+| LUTAR-1   | Warning  | LUT drives async reset alert                    | 6          |
+| PDRC-190  | Warning  | Suboptimally placed synchronized register chain | 2          |
+| TIMING-9  | Warning  | Unknown CDC Logic                               | 1          |
+| TIMING-20 | Warning  | Non-clocked latch                               | 16         |
+| ULMTCS-1  | Warning  | Control Sets use limits recommend reduction     | 1          |
+| XDCB-5    | Warning  | Runtime inefficient way to find pin objects     | 2          |
++-----------+----------+-------------------------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -68,12 +69,12 @@ Related violations: <none>
 
 PDRC-190#1 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X1Y39 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
+The FDRE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X1Y45 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sRxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
 Related violations: <none>
 
 PDRC-190#2 Warning
 Suboptimally placed synchronized register chain  
-The FDRE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X8Y28 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
+The FDRE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d2_reg in site SLICE_X12Y31 is part of a synchronized register chain that is suboptimally placed as the load FDSE cell design_1_i/d_axi_i2s_audio_0/U0/d_axi_i2s_audio_v2_0_AXI_L_inst/Inst_I2sCtl/Inst_I2sTxFifo/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/grstd1.grst_full.grst_f.rst_d3_reg is not placed in the same (SLICE) site.
 Related violations: <none>
 
 TIMING-9#1 Warning
@@ -81,9 +82,89 @@ Unknown CDC Logic
 One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
 Related violations: <none>
 
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[0] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[10] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[11] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[12] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[13] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[14] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[15] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[1] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[2] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[3] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[4] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[5] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[6] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[7] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[8] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[9] cannot be properly analyzed as its control pin design_1_i/led_display_0/inst/cntrl_display_inst/o_data_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
 ULMTCS-1#1 Warning
 Control Sets use limits recommend reduction  
-This design uses 437 control sets (vs. available limit of 4400, determined by 1 control set per CLB). This exceeds the control set use guideline of 7.5 percent. This is at a level where reduction is RECOMMENDED (see UG949). Use report_control_sets to get more details.
+This design uses 451 control sets (vs. available limit of 4400, determined by 1 control set per CLB). This exceeds the control set use guideline of 7.5 percent. This is at a level where reduction is RECOMMENDED (see UG949). Use report_control_sets to get more details.
 Related violations: <none>
 
 XDCB-5#1 Warning

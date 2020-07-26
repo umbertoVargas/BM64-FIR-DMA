@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VDD_IO Pin=S1-1
+Added Pin To Net: NetName=VDD_IO_GPIO Pin=P1-7
+Added Pin To Net: NetName=VDD_IO_GPIO Pin=S1-1
+Added Net: Name=VDD_IO_GPIO
+Added Room: Name=Sheet1

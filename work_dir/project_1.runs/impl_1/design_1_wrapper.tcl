@@ -60,12 +60,17 @@ proc step_failed { step } {
   close $ch
 }
 
+set_msg_config -id {HDL-1065} -limit 10000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 
 start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
+  set_param tcl.collectionResultDisplayLimit 0
   set_param chipscope.maxJobs 3
+  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xc7z010clg400-1
   set_property board_part_repo_paths {C:/Users/umber/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store} [current_project]
   set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
@@ -73,7 +78,10 @@ set rc [catch {
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir C:/Users/umber/OneDrive/Desktop/project/work_dir/project_1.cache/wt [current_project]
   set_property parent.project_path C:/Users/umber/OneDrive/Desktop/project/work_dir/project_1.xpr [current_project]
-  set_property ip_repo_paths C:/Users/umber/OneDrive/Desktop/project/IP_repo [current_project]
+  set_property ip_repo_paths {
+  c:/Users/umber/OneDrive/Desktop/project/IP_repo
+  C:/Users/umber/OneDrive/Desktop/display
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo C:/Users/umber/OneDrive/Desktop/project/work_dir/project_1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

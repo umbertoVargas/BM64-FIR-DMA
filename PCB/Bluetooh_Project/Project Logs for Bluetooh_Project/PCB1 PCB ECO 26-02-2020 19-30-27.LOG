@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DACDAT Pin=P1-3
+Removed Pin From Net: NetName=RST_N Pin=P1-9
+Added Pin To Net: NetName=RST_N Pin=P1-3
+Added Pin To Net: NetName=DACDAT Pin=P1-8

@@ -1,0 +1,40 @@
+23:44:17 **** Incremental Build of configuration Debug for project dma_bm64 ****
+make all 
+'Building file: ../src/audio/audio.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -IC:/Users/umber/ZYBO_WORKSPACE/BM64/export/BM64/sw/BM64/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.h:71,
+                 from ../src/audio/audio.c:61:
+../src/audio/../demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+'Finished building: ../src/audio/audio.c'
+' '
+'Building file: ../src/demo.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -IC:/Users/umber/ZYBO_WORKSPACE/BM64/export/BM64/sw/BM64/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+In file included from ../src/demo.c:28:
+../src/demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+'Finished building: ../src/demo.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/umber/ZYBO_WORKSPACE/BM64/export/BM64/sw/BM64/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: dma_bm64.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/umber/ZYBO_WORKSPACE/BM64/export/BM64/sw/BM64/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "dma_bm64.elf"  ./src/userio/userio.o  ./src/intc/intc.o  ./src/iic/iic.o  ./src/dma/dma.o  ./src/audio/audio.o  ./src/demo.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_bm64.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size dma_bm64.elf  |tee "dma_bm64.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35800	   1936	   4440	  42176	   a4c0	dma_bm64.elf
+'Finished building: dma_bm64.elf.size'
+' '
+
+23:44:19 Build Finished (took 1s.498ms)
+

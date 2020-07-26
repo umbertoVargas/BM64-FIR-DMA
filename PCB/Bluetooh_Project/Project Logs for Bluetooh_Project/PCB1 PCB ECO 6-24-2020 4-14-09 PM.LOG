@@ -1,0 +1,281 @@
+Removed Pin From Net: NetName=3.3 VCC Pin=Q1-1
+Removed Pin From Net: NetName=EN0 Pin=Q1-2
+Removed Pin From Net: NetName=CO1 Pin=Q1-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q2-1
+Removed Pin From Net: NetName=EN1 Pin=Q2-2
+Removed Pin From Net: NetName=CO2 Pin=Q2-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q3-1
+Removed Pin From Net: NetName=EN2 Pin=Q3-2
+Removed Pin From Net: NetName=CO3 Pin=Q3-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q4-1
+Removed Pin From Net: NetName=EN3 Pin=Q4-2
+Removed Pin From Net: NetName=CO4 Pin=Q4-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q5-1
+Removed Pin From Net: NetName=EN4 Pin=Q5-2
+Removed Pin From Net: NetName=CO5 Pin=Q5-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q6-1
+Removed Pin From Net: NetName=EN5 Pin=Q6-2
+Removed Pin From Net: NetName=CO6 Pin=Q6-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q7-1
+Removed Pin From Net: NetName=EN6 Pin=Q7-2
+Removed Pin From Net: NetName=CO7 Pin=Q7-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q8-1
+Removed Pin From Net: NetName=EN7 Pin=Q8-2
+Removed Pin From Net: NetName=CO8 Pin=Q8-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q9-1
+Removed Pin From Net: NetName=EN8 Pin=Q9-2
+Removed Pin From Net: NetName=CO11 Pin=Q9-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q10-1
+Removed Pin From Net: NetName=EN9 Pin=Q10-2
+Removed Pin From Net: NetName=CO22 Pin=Q10-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q11-1
+Removed Pin From Net: NetName=EN10 Pin=Q11-2
+Removed Pin From Net: NetName=CO33 Pin=Q11-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q12-1
+Removed Pin From Net: NetName=EN11 Pin=Q12-2
+Removed Pin From Net: NetName=CO44 Pin=Q12-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q13-1
+Removed Pin From Net: NetName=EN12 Pin=Q13-2
+Removed Pin From Net: NetName=CO55 Pin=Q13-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q14-1
+Removed Pin From Net: NetName=EN13 Pin=Q14-2
+Removed Pin From Net: NetName=CO66 Pin=Q14-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q15-1
+Removed Pin From Net: NetName=EN15 Pin=Q15-2
+Removed Pin From Net: NetName=CO88 Pin=Q15-3
+Removed Pin From Net: NetName=3.3 VCC Pin=Q16-1
+Removed Pin From Net: NetName=EN14 Pin=Q16-2
+Removed Pin From Net: NetName=CO77 Pin=Q16-3
+Change Component Footprint: Designator=Q1 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q2 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q3 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q4 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q5 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q6 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q7 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q8 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q9 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q10 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q11 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q12 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q13 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q14 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q15 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change Component Footprint: Designator=Q16 Old Footprint=E3 New Footprint=BSS84PWH6327XTSA1
+Change component parameters: Designator = "Q1"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\EMKIKXWF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q2"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\IZBPMFNM"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q3"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\HHKVDVEQ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q4"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\DKXIZSUH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q5"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\RPMBVIJY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q6"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\JGTBBWBZ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q7"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\NZSCYDNC"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q8"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\LOACERGG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q9"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\LRYYXWSH"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q10"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\CRHQRZCF"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q11"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\VXLKDTUU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q12"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\OVABJYOR"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q13"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\WOYFQGXS"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q14"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\IFRMTSVU"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q15"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\FEPNIZLE"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "Q16"; Footprint = "BSS84PWH6327XTSA1"; UniqueID = "\NYZYETFZ"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReference"; Value = "BSS84PWH6327XTSA1CT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "TO, Flat Index; 3 In-Line, Axial Leads; Body Dia. 4.6mm; Lead Dia. 0.5 mm (max)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "E3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "1995/1996"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Change component parameters: Designator = "W1"; Footprint = "Shunt jumper"; UniqueID = "\LGGHFDJD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Digi-KeyReferencer"; Value = "S9000-ND "; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Radial Cap, Thru-Hole; 2 Leads; 0.2 in Pin Spacing"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "RAD-0.2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=EN0 Pin=Q1-1
+Added Pin To Net: NetName=CO1 Pin=Q1-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q1-3
+Added Pin To Net: NetName=EN1 Pin=Q2-1
+Added Pin To Net: NetName=CO2 Pin=Q2-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q2-3
+Added Pin To Net: NetName=EN2 Pin=Q3-1
+Added Pin To Net: NetName=CO3 Pin=Q3-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q3-3
+Added Pin To Net: NetName=EN3 Pin=Q4-1
+Added Pin To Net: NetName=CO4 Pin=Q4-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q4-3
+Added Pin To Net: NetName=EN4 Pin=Q5-1
+Added Pin To Net: NetName=CO5 Pin=Q5-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q5-3
+Added Pin To Net: NetName=EN5 Pin=Q6-1
+Added Pin To Net: NetName=CO6 Pin=Q6-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q6-3
+Added Pin To Net: NetName=EN6 Pin=Q7-1
+Added Pin To Net: NetName=CO7 Pin=Q7-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q7-3
+Added Pin To Net: NetName=EN7 Pin=Q8-1
+Added Pin To Net: NetName=CO8 Pin=Q8-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q8-3
+Added Pin To Net: NetName=EN8 Pin=Q9-1
+Added Pin To Net: NetName=CO11 Pin=Q9-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q9-3
+Added Pin To Net: NetName=EN9 Pin=Q10-1
+Added Pin To Net: NetName=CO22 Pin=Q10-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q10-3
+Added Pin To Net: NetName=EN10 Pin=Q11-1
+Added Pin To Net: NetName=CO33 Pin=Q11-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q11-3
+Added Pin To Net: NetName=EN11 Pin=Q12-1
+Added Pin To Net: NetName=CO44 Pin=Q12-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q12-3
+Added Pin To Net: NetName=EN12 Pin=Q13-1
+Added Pin To Net: NetName=CO55 Pin=Q13-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q13-3
+Added Pin To Net: NetName=EN13 Pin=Q14-1
+Added Pin To Net: NetName=CO66 Pin=Q14-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q14-3
+Added Pin To Net: NetName=EN15 Pin=Q15-1
+Added Pin To Net: NetName=CO88 Pin=Q15-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q15-3
+Added Pin To Net: NetName=EN14 Pin=Q16-1
+Added Pin To Net: NetName=CO77 Pin=Q16-2
+Added Pin To Net: NetName=3.3 VCC Pin=Q16-3

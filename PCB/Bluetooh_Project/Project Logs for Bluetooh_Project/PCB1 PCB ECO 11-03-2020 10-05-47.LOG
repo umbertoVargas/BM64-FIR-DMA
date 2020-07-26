@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=BCLK Pin=P2-4
+Removed Pin From Net: NetName=DACDAT Pin=P2-10
+Added Pin To Net: NetName=DACDAT Pin=P2-4
+Added Pin To Net: NetName=BCLK Pin=P2-10

@@ -1,0 +1,727 @@
+17:07:36 **** Build of project BM64_FINAL ****
+buildplatform.bat 54728 BM64_FINAL  
+XSDB Server Channel: tcfchan#5
+Building the zynq_fsbl application.
+make -C zynq_fsbl_bsp
+
+make[1]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp'
+
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+ard -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps
+_dcc_v1_6/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_
+dcc_v1_6/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa
+9_v2_8/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9
+_v2_8/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/
+src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/s
+rc'
+
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/
+src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/s
+rc'
+
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_1
+0/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10
+/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+startfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2
+_1/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_
+1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/s
+rc'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/sr
+c'
+
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_
+v7_1/src'
+
+make[3]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_
+v7_1/src/profile'
+
+make[3]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+7_1/src/profile'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+7_1/src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/
+src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/s
+rc'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/
+src'
+
+"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+ "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+artfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+ -nostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps
+_dcc_v1_6/src'
+
+"Compiling coresightps_dcc"
+
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_
+dcc_v1_6/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+ostartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa
+9_v2_8/src'
+
+"Compiling cpu_cortexa9"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9
+_v2_8/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/
+src'
+
+"Compiling ddrps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/s
+rc'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5
+/src'
+
+"Compiling devcfg"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/
+src'
+
+"Compiling dmaps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/s
+rc'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+tfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_1
+0/src'
+
+"Compiling emacps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10
+/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6
+/src'
+
+"Compiling gpiops"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6
+/src'
+
+"Compiling qspips"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1
+/src'
+
+"Compiling scugic"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+rtfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2
+_1/src'
+
+"Compiling scutimer"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_
+1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1
+/src'
+
+"Compiling scuwdt"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+les -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/s
+rc'
+
+"Compiling sdps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/sr
+c'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+tartfiles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_
+v7_1/src'
+
+"Compiling standalone"
+
+In file included from usleep.c:54:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:52:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:47:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:51:
+xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v
+7_1/src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10
+/src'
+
+"Compiling ttcps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8
+/src'
+
+"Compiling uartps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+iles -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/
+src'
+
+"Compiling usbps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/s
+rc'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3
+/src'
+
+"Compiling xadcps"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2
+/src'
+
+"Compiling XilFFs Library"
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/
+src'
+
+"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+files -g -Wall -Wextra"
+
+make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5
+/src'
+
+make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/
+src'
+
+'Finished building libraries'
+
+make[1]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/BM64_FINAL/zynq_fsbl/zynq_fsbl_bsp'
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
+include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
+9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
+sp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9_
+0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp
+/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa
+9_0/include -I.
+
+In file included from main.c:135:
+zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
+9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps7
+_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortexa
+9_0/include -I.
+
+In file included from pcap.c:98:
+zynq_fsbl_bsp/ps7_cortexa9_0/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
+_bsp/ps7_cortexa9_0/include -I.
+
+arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  nor.o  qspi.o  ps7_init.o
+  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-section
+s -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+Building the BSP Library for domain  - standalone_domain on processor microblaze_0
+"Running Make include in microblaze_0/libsrc/axidma_v9_10/src"
+
+make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+ll -Wextra"
+
+"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Running Make include in microblaze_0/libsrc/iic_v3_5/src"
+
+make -C microblaze_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra"
+
+"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra"
+
+"Running Make include in microblaze_0/libsrc/llfifo_v5_3/src"
+
+make -C microblaze_0/libsrc/llfifo_v5_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra"
+
+"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+-Wall -Wextra"
+
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+l -Wextra"
+
+"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+all -Wextra"
+
+"Running Make libs in microblaze_0/libsrc/axidma_v9_10/src"
+
+make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+-Wextra"
+
+"Compiling axidma"
+
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra"
+
+"Compiling bram"
+
+"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra"
+
+"Compiling cpu"
+
+"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+xtra"
+
+"Compiling gpio"
+
+"Running Make libs in microblaze_0/libsrc/iic_v3_5/src"
+
+make -C microblaze_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+tra"
+
+"Compiling iic"
+
+"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+extra"
+
+"Compiling intc"
+
+"Running Make libs in microblaze_0/libsrc/llfifo_v5_3/src"
+
+make -C microblaze_0/libsrc/llfifo_v5_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra"
+
+"Compiling llfifo"
+
+"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+ll -Wextra"
+
+"Compiling standalone";
+
+microblaze_sleep.c:75:9: note: #pragma message: For the sleep routines, assembly instructions are used
+ #pragma message ("For the sleep routines, assembly instructions are used")
+         ^~~~~~~
+"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+Wextra"
+
+"Compiling tmrctr"
+
+"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+ -Wextra"
+
+"Compiling uartlite"
+
+'Finished building libraries'
+
+
+17:08:09 Build Finished (took 32s.903ms)
+

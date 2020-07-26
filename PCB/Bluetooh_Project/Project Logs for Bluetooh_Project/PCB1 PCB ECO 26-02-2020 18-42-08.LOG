@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=BT_WAKE_UP Pin=P2-8
+Added Pin To Net: NetName=BT_WAKE_UP Pin=P2-1

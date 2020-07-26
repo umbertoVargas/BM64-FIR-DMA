@@ -1,0 +1,7 @@
+/*TFG2020*/
+the_ROM_image:
+{
+  [bootloader]<TFG2020/boot/fsbl.elf>
+   <bitstream> 
+  <elf,microblaze_0>
+}

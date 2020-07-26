@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FPGA_WAKE_UP Pin=P2-1
+Removed Pin From Net: NetName=RST_N Pin=P2-9
+Added Pin To Net: NetName=RST_N Pin=P2-1
+Added Pin To Net: NetName=FPGA_WAKE_UP Pin=P2-9
+Added Room: Name=Sheet1

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=CO8 Pin=M1-9
+Removed Pin From Net: NetName=CO7 Pin=M1-10
+Removed Pin From Net: NetName=CO6 Pin=M1-14
+Removed Pin From Net: NetName=CO4 Pin=M1-15
+Added Pin To Net: NetName=CO4 Pin=M1-9
+Added Pin To Net: NetName=CO6 Pin=M1-10
+Added Pin To Net: NetName=CO7 Pin=M1-14
+Added Pin To Net: NetName=CO8 Pin=M1-15
+Added Room: Name=1_BLE
+Added Room: Name=2_USB_UART
+Added Room: Name=3_DISPLAY

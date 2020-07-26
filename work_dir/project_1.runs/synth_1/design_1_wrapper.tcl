@@ -17,7 +17,12 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param tcl.collectionResultDisplayLimit 0
 set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
+set_msg_config -id {HDL-1065} -limit 10000
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7z010clg400-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -31,7 +36,10 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part_repo_paths {C:/Users/umber/AppData/Roaming/Xilinx/Vivado/2019.2/xhub/board_store} [current_project]
 set_property board_part digilentinc.com:zybo:part0:2.0 [current_project]
-set_property ip_repo_paths c:/Users/umber/OneDrive/Desktop/project/IP_repo [current_project]
+set_property ip_repo_paths {
+  c:/Users/umber/OneDrive/Desktop/project/IP_repo
+  c:/Users/umber/OneDrive/Desktop/display
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/umber/OneDrive/Desktop/project/work_dir/project_1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]

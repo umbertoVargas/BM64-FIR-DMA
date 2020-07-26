@@ -1,0 +1,8 @@
+22:18:24 **** Clean-only build of configuration Debug for project DSP_system ****
+make clean 
+rm -rf ./_sds
+rm -rf sd_card
+rm -f system.bif
+
+22:18:25 Build Finished (took 182ms)
+

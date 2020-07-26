@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GPIO_INTERRUPS_EXAMPLE/src/main.c&apos; to &apos;interrupTest.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main.c" name="interrupTest.c" stamp="1584899475163" updateReferences="true"/>
+</session>

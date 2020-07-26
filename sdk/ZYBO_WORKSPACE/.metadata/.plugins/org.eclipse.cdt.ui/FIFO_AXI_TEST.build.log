@@ -1,0 +1,6 @@
+11:47:08 **** Incremental Build of project FIFO_AXI_TEST ****
+buildplatform.bat 64891 FIFO_AXI_TEST no_domain_build 
+XSDB Server Channel: tcfchan#3
+
+11:47:10 Build Finished (took 1s.844ms)
+

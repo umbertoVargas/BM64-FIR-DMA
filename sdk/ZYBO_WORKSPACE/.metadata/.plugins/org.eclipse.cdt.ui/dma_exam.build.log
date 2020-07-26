@@ -1,0 +1,71 @@
+23:35:36 **** Build of configuration Debug for project dma_exam ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/userio/userio.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/userio/userio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/userio/userio.d" -MT"src/userio/userio.o" -o "src/userio/userio.o" "../src/userio/userio.c"
+In file included from ../src/userio/userio.c:56:
+../src/userio/../demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+'Finished building: ../src/userio/userio.c'
+' '
+'Building file: ../src/intc/intc.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/intc/intc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/intc/intc.d" -MT"src/intc/intc.o" -o "src/intc/intc.o" "../src/intc/intc.c"
+'Finished building: ../src/intc/intc.c'
+' '
+'Building file: ../src/iic/iic.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/iic/iic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/iic/iic.d" -MT"src/iic/iic.o" -o "src/iic/iic.o" "../src/iic/iic.c"
+'Finished building: ../src/iic/iic.c'
+' '
+'Building file: ../src/dma/dma.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma/dma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/dma/dma.d" -MT"src/dma/dma.o" -o "src/dma/dma.o" "../src/dma/dma.c"
+In file included from ../src/dma/dma.c:9:
+../src/dma/../demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+'Finished building: ../src/dma/dma.c'
+' '
+'Building file: ../src/audio/audio.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/audio/audio.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/audio/audio.d" -MT"src/audio/audio.o" -o "src/audio/audio.o" "../src/audio/audio.c"
+In file included from ../src/audio/audio.h:71,
+                 from ../src/audio/audio.c:61:
+../src/audio/../demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+'Finished building: ../src/audio/audio.c'
+' '
+'Building file: ../src/demo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/demo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include -MMD -MP -MF"src/demo.d" -MT"src/demo.o" -o "src/demo.o" "../src/demo.c"
+In file included from ../src/demo.c:28:
+../src/demo.h:58:2: warning: #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000 [-Wcpp]
+ #warning CHECK FOR THE VALID DDR ADDRESS IN XPARAMETERS.H, DEFAULT SET TO 0x010000000
+  ^~~~~~~
+In file included from ../src/demo.c:47:
+C:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bspinclude/include/xtime_l.h:85:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+'Finished building: ../src/demo.c'
+' '
+'Building target: dma_exam.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/umber/ZYBO_WORKSPACE/dma/export/dma/sw/dma/standalone_domain/bsplib/lib -o "dma_exam.elf"  ./src/userio/userio.o  ./src/intc/intc.o  ./src/iic/iic.o  ./src/dma/dma.o  ./src/audio/audio.o  ./src/demo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dma_exam.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size dma_exam.elf  |tee "dma_exam.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  62416	   3488	  25368	  91272	  16488	dma_exam.elf
+'Finished building: dma_exam.elf.size'
+' '
+
+23:35:39 Build Finished (took 3s.497ms)
+

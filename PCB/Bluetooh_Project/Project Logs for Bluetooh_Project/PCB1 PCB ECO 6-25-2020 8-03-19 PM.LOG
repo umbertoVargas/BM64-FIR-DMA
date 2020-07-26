@@ -1,0 +1,12 @@
+Added Component: Designator=FI1(Fiducial)
+Add component. Clean all parameters for all variants
+Added Component: Designator=FI2(Fiducial)
+Add component. Clean all parameters for all variants
+Added Component: Designator=FI3(Fiducial)
+Add component. Clean all parameters for all variants
+Added Component: Designator=FI4(Fiducial)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Sheet3 Member=Component FI1 Fiducial
+Added Member To Class: ClassName=Sheet3 Member=Component FI2 Fiducial
+Added Member To Class: ClassName=Sheet3 Member=Component FI3 Fiducial
+Added Member To Class: ClassName=Sheet3 Member=Component FI4 Fiducial

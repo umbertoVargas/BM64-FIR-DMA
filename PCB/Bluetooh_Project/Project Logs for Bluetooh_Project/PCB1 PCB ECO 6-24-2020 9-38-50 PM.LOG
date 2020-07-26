@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=EN7 Pin=U2-8
+Removed Pin From Net: NetName=EN8 Pin=U2-9
+Removed Pin From Net: NetName=EN12 Pin=U2-14
+Removed Pin From Net: NetName=EN15 Pin=U2-17
+Added Pin To Net: NetName=EN15 Pin=U2-8
+Added Pin To Net: NetName=EN12 Pin=U2-9
+Added Pin To Net: NetName=EN8 Pin=U2-14
+Added Pin To Net: NetName=EN7 Pin=U2-17

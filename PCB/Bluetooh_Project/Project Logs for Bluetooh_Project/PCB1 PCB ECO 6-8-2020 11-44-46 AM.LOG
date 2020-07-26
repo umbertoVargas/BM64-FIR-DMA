@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=W1 Old Footprint=RAD-0.2 New Footprint=Shunt jumper
+Change Component Designator: OldDesignator=BM64 NewDesignator=U1
+Added Room: Name=Sheet1

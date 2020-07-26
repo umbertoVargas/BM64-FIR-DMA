@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Y6 Pin=P3-3
+Removed Pin From Net: NetName=Y2 Pin=P3-9
+Added Pin To Net: NetName=Y2 Pin=P3-3
+Added Pin To Net: NetName=Y6 Pin=P3-9

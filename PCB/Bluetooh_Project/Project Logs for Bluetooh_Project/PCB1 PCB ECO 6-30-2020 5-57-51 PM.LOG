@@ -1,0 +1,5 @@
+Removed Member From Class: ClassName=1_BLE Member=L4
+Change Component Designator: OldDesignator=D3 NewDesignator=D1
+Added Member To Class: ClassName=1_BLE Member=Component L2 LED1
+Added Room: Name=2_USB_UART
+Added Room: Name=3_DISPLAY

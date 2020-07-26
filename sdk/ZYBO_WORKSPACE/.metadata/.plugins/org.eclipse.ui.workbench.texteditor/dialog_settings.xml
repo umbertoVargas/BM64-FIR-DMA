@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.cdt.internal.ui.preferences.CTemplatePreferencePage$CEditTemplateDialog_dialogBounds">
+		<item value="801" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="419" key="DIALOG_HEIGHT"/>
+		<item value="-33" key="DIALOG_X_ORIGIN"/>
+		<item value="64" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="sIntc" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="true" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="sIntc"/>
+			<item value="exam"/>
+			<item value="NR_AUDIO_SAMPLES"/>
+			<item value="BTN_FILTER"/>
+			<item value="f"/>
+			<item value="filter"/>
+			<item value="filte"/>
+			<item value="//"/>
+			<item value="is"/>
+			<item value="XPAR_INTC_0_GPIO_1_VEC_ID"/>
+			<item value="XPAR_UARTLITE_0_DEVICE_ID"/>
+			<item value="c"/>
+			<item value="full"/>
+			<item value="FULL"/>
+			<item value="XLLF_INT_RPORE_MASK"/>
+		</list>
+		<list key="replacehistory">
+			<item value="BTNC_MASK"/>
+			<item value=""/>
+			<item value="h_hpf"/>
+			<item value="samples_In"/>
+			<item value="u8"/>
+			<item value="fnInitUserIOButtons"/>
+			<item value="USERIO_BUTTON_DEVICE_ID"/>
+			<item value="USERIO_BUTTONS_DEVICE_ID"/>
+			<item value="xil_printf"/>
+			<item value="BTN_INTERRUPT"/>
+			<item value="BTN_CHANNEL"/>
+			<item value="BTNS_MASK"/>
+			<item value="fnUpdateLedsFromButtons"/>
+			<item value="BTN_FILTER"/>
+			<item value="FifoStreamHandler"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="336" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="454" key="DIALOG_HEIGHT"/>
+		<item value="1272" key="DIALOG_X_ORIGIN"/>
+		<item value="282" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

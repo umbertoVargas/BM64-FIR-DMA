@@ -1,0 +1,81 @@
+/************************************************************************/
+/*																		*/
+/*	demo.h	--	Zedboard DMA Demo				 						*/
+/*																		*/
+/************************************************************************/
+/*	Author: Sam Lowe													*/
+/*	Copyright 2015, Digilent Inc.										*/
+/************************************************************************/
+/*  Module Description: 												*/
+/*																		*/
+/*		This header file contains code for running a demonstration 		*/
+/*		of the DMA audio inputs and outputs on the Zedboard.			*/
+/*																		*/
+/*																		*/
+/************************************************************************/
+/*  Notes:																*/
+/*																		*/
+/*		- The DMA max burst size needs to be set to 16 or less			*/
+/*																		*/
+/************************************************************************/
+/*  Revision History:													*/
+/* 																		*/
+/*		8/23/2016(SamL): Created										*/
+/*																		*/
+/************************************************************************/
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+/***************************** Include Files *********************************/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "xil_io.h"
+#include "xstatus.h"
+#include "xparameters.h"
+#include "xil_cache.h"
+
+
+/************************** Constant Definitions *****************************/
+#define RETURN_ON_FAILURE(x) if ((x) != XST_SUCCESS) return XST_FAILURE;
+
+
+
+
+
+
+
+#ifdef XPAR_INTC_0_DEVICE_ID
+#define INTC_DEVICE_ID          XPAR_INTC_0_DEVICE_ID
+#else
+//#define INTC_DEVICE_ID          XPAR_SCUGIC_SINGLE_DEVICE_ID
+#endif
+
+#ifdef XPAR_INTC_0_DEVICE_ID
+ #define INTC		XIntc
+ #define INTC_HANDLER	XIntc_InterruptHandler
+#else
+ #define INTC		XScuGic
+ #define INTC_HANDLER	XScuGic_InterruptHandler
+#endif
+
+/*
+ * Flags interrupt handlers use to notify the application context the events.
+ */
+/**************************** Type Definitions *******************************/
+typedef struct {
+	u8 u8Verbose;
+	u8 fUserIOEvent;
+	u32 chSw;
+	u32 chSw_Change;
+	int fifoRxFull;
+} sDemo_t;
+
+/************************** Function Prototypes ******************************/
+
+
+// This variable holds the demo related settings
+volatile sDemo_t Demo;
+
+#endif /* MAIN_H_ */

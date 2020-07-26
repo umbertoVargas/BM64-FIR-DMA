@@ -1,0 +1,26 @@
+00:06:13 **** Build of configuration Debug for project SSM2603_Controller ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/umber/ZYBO_WORKSPACE/AAAAA/export/AAAAA/sw/AAAAA/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/umber/ZYBO_WORKSPACE/AAAAA/export/AAAAA/sw/AAAAA/standalone_domain/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: SSM2603_Controller.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/umber/ZYBO_WORKSPACE/AAAAA/export/AAAAA/sw/AAAAA/standalone_domain/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "SSM2603_Controller.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: SSM2603_Controller.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size SSM2603_Controller.elf  |tee "SSM2603_Controller.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8600	    684	   3108	  12392	   3068	SSM2603_Controller.elf
+'Finished building: SSM2603_Controller.elf.size'
+' '
+
+00:06:14 Build Finished (took 1s.176ms)
+

@@ -1,0 +1,6 @@
+2020-05-04T23:48:31.844949800255-23:48:31 **** Build of configuration Debug for project DMA_system ****
+000-make all 
+000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+00255-
+23:48:32 Build Finished (took 188ms)
+

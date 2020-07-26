@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;DMA/src/filter&apos; to &apos;fir_filter&apos;" description="Rename resource &apos;filter&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/filter" name="fir_filter" stamp="1587634912837" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;DMA/src/fir_filter&apos; to &apos;fir&apos;" description="Rename resource &apos;fir_filter&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fir_filter" name="fir" stamp="1587914338189" updateReferences="true"/>
+</session>

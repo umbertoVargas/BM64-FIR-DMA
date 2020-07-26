@@ -1,0 +1,76 @@
+Added Component: Designator=P1(901220766)
+Add component. Clean all parameters for all variants
+Added Component: Designator=P2(901220766)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U1(*MODULE_BM64SPKS1MC1-0001AA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BM64SPKS1MC1-0001AA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Module Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BM64SPKS1MC1-0001AA/Microchip/view-part/613145/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3 VCC Pin=P1-6
+Added Pin To Net: NetName=3.3 VCC Pin=P1-12
+Added Pin To Net: NetName=3.3 VCC Pin=P2-6
+Added Pin To Net: NetName=3.3 VCC Pin=P2-12
+Added Pin To Net: NetName=3.3 VCC Pin=U1-22
+Added Net: Name=3.3 VCC
+Added Pin To Net: NetName=ADCDAT Pin=P1-3
+Added Pin To Net: NetName=ADCDAT Pin=U1-1
+Added Net: Name=ADCDAT
+Added Pin To Net: NetName=BCLK Pin=P1-1
+Added Pin To Net: NetName=BCLK Pin=U1-3
+Added Net: Name=BCLK
+Added Pin To Net: NetName=BT_WAKE_UP Pin=P1-10
+Added Pin To Net: NetName=BT_WAKE_UP Pin=U1-26
+Added Net: Name=BT_WAKE_UP
+Added Pin To Net: NetName=DACDAT Pin=P1-4
+Added Pin To Net: NetName=DACDAT Pin=U1-4
+Added Net: Name=DACDAT
+Added Pin To Net: NetName=DACLRC Pin=P1-2
+Added Pin To Net: NetName=DACLRC Pin=U1-2
+Added Net: Name=DACLRC
+Added Pin To Net: NetName=EAN Pin=P2-2
+Added Pin To Net: NetName=EAN Pin=U1-32
+Added Net: Name=EAN
+Added Pin To Net: NetName=FPGA_WAKE_UP Pin=P1-7
+Added Pin To Net: NetName=FPGA_WAKE_UP Pin=U1-29
+Added Net: Name=FPGA_WAKE_UP
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=GND Pin=P1-11
+Added Pin To Net: NetName=GND Pin=P2-5
+Added Pin To Net: NetName=GND Pin=P2-11
+Added Pin To Net: NetName=GND Pin=U1-14
+Added Pin To Net: NetName=GND Pin=U1-43
+Added Net: Name=GND
+Added Pin To Net: NetName=I_DETECT Pin=P2-4
+Added Pin To Net: NetName=I_DETECT Pin=U1-36
+Added Net: Name=I_DETECT
+Added Pin To Net: NetName=P2_0 Pin=P2-1
+Added Pin To Net: NetName=P2_0 Pin=U1-41
+Added Net: Name=P2_0
+Added Pin To Net: NetName=P3_6 Pin=P2-10
+Added Pin To Net: NetName=P3_6 Pin=U1-39
+Added Net: Name=P3_6
+Added Pin To Net: NetName=PLAY Pin=P2-7
+Added Pin To Net: NetName=PLAY Pin=U1-40
+Added Net: Name=PLAY
+Added Pin To Net: NetName=RST_N Pin=P2-3
+Added Pin To Net: NetName=RST_N Pin=U1-13
+Added Net: Name=RST_N
+Added Pin To Net: NetName=UART_RX Pin=P1-8
+Added Pin To Net: NetName=UART_RX Pin=U1-20
+Added Net: Name=UART_RX
+Added Pin To Net: NetName=UART_TX Pin=P1-9
+Added Pin To Net: NetName=UART_TX Pin=U1-19
+Added Net: Name=UART_TX
+Added Pin To Net: NetName=VOL + Pin=P2-8
+Added Pin To Net: NetName=VOL + Pin=U1-42
+Added Net: Name=VOL +
+Added Pin To Net: NetName=VOL - Pin=P2-9
+Added Pin To Net: NetName=VOL - Pin=U1-35
+Added Net: Name=VOL -
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

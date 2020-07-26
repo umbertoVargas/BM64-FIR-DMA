@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=TXD Pin=D3-2
+Removed Pin From Net: NetName=RXD Pin=D3-3
+Removed Pin From Net: NetName=CTS Pin=D3-4
+Removed Pin From Net: NetName=RTS Pin=D3-5
+Removed Pin From Net: NetName=RTS FT Pin=D3-10
+Removed Pin From Net: NetName=CTS FT Pin=D3-11
+Removed Pin From Net: NetName=RXD FT Pin=D3-12
+Removed Pin From Net: NetName=TXD FT Pin=D3-13
+Removed Pin From Net: NetName=RTS Pin=P*-7
+Removed Pin From Net: NetName=CTS Pin=P*-8
+Removed Pin From Net: NetName=RXD Pin=P*-9
+Removed Pin From Net: NetName=TXD Pin=P*-10
+Added Pin To Net: NetName=CTS Pin=D3-2
+Added Pin To Net: NetName=RTS Pin=D3-3
+Added Pin To Net: NetName=TXD Pin=D3-4
+Added Pin To Net: NetName=RXD Pin=D3-5
+Added Pin To Net: NetName=RXD FT Pin=D3-10
+Added Pin To Net: NetName=TXD FT Pin=D3-11
+Added Pin To Net: NetName=RTS FT Pin=D3-12
+Added Pin To Net: NetName=CTS FT Pin=D3-13
+Added Pin To Net: NetName=CTS Pin=P*-1
+Added Pin To Net: NetName=RTS Pin=P*-2
+Added Pin To Net: NetName=TXD Pin=P*-3
+Added Pin To Net: NetName=RXD Pin=P*-4
+Added Room: Name=Sheet1

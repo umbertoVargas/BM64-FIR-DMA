@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=RY0 Pin=M1-9
+Removed Pin From Net: NetName=CO4 Pin=M1-10
+Removed Pin From Net: NetName=CO6 Pin=M1-11
+Removed Pin From Net: NetName=RY3 Pin=M1-12
+Removed Pin From Net: NetName=CO1 Pin=M1-13
+Removed Pin From Net: NetName=RY1 Pin=M1-14
+Removed Pin From Net: NetName=CO7 Pin=M1-15
+Removed Pin From Net: NetName=CO8 Pin=M1-16
+Removed Pin From Net: NetName=RY0 Pin=M2-9
+Removed Pin From Net: NetName=CO44 Pin=M2-10
+Removed Pin From Net: NetName=CO66 Pin=M2-11
+Removed Pin From Net: NetName=RY3 Pin=M2-12
+Removed Pin From Net: NetName=CO11 Pin=M2-13
+Removed Pin From Net: NetName=RY1 Pin=M2-14
+Removed Pin From Net: NetName=CO77 Pin=M2-15
+Removed Pin From Net: NetName=CO88 Pin=M2-16
+Change Component Footprint: Designator=M1 Old Footprint=MATRIX LED New Footprint=Matrix8X8
+Change Component Footprint: Designator=M2 Old Footprint=MATRIX LED New Footprint=Matrix8X8
+Change Component Designator: OldDesignator=BM64 NewDesignator=U1
+Change Component Designator: OldDesignator=JUMPER NewDesignator=W1
+Added Pin To Net: NetName=CO8 Pin=M1-9
+Added Pin To Net: NetName=CO7 Pin=M1-10
+Added Pin To Net: NetName=RY1 Pin=M1-11
+Added Pin To Net: NetName=CO1 Pin=M1-12
+Added Pin To Net: NetName=RY3 Pin=M1-13
+Added Pin To Net: NetName=CO6 Pin=M1-14
+Added Pin To Net: NetName=CO4 Pin=M1-15
+Added Pin To Net: NetName=RY0 Pin=M1-16
+Added Pin To Net: NetName=CO88 Pin=M2-9
+Added Pin To Net: NetName=CO77 Pin=M2-10
+Added Pin To Net: NetName=RY1 Pin=M2-11
+Added Pin To Net: NetName=CO11 Pin=M2-12
+Added Pin To Net: NetName=RY3 Pin=M2-13
+Added Pin To Net: NetName=CO66 Pin=M2-14
+Added Pin To Net: NetName=CO44 Pin=M2-15
+Added Pin To Net: NetName=RY0 Pin=M2-16
+Added Room: Name=1_BLE
+Added Room: Name=2_USB_UART
+Added Room: Name=3_DISPLAY

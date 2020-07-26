@@ -1,0 +1,5 @@
+Added Class: Name=AUDIO I2S
+Added Class: Name=UART BM64
+Added Room: Name=1_BLE
+Added Room: Name=2_USB_UART
+Added Room: Name=3_DISPLAY

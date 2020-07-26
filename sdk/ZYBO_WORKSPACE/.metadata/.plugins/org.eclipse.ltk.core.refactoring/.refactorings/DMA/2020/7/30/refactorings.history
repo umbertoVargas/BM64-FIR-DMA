@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DMA/src/dsiplay&apos; to &apos;display&apos;" description="Rename resource &apos;dsiplay&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dsiplay" name="display" stamp="1595344741173" updateReferences="true"/>
+</session>

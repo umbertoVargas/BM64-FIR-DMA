@@ -1,0 +1,2389 @@
+TRACE::2020-07-21.17:51:15::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:15::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:15::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:15::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:15::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:15::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:15::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-07-21.17:51:17::SCWPlatform::Opened new HwDB with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2020-07-21.17:51:17::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020"
+		}]
+}
+TRACE::2020-07-21.17:51:17::SCWPlatform::Boot application domains not present, creating them
+TRACE::2020-07-21.17:51:17::SCWDomain::checking for install qemu data   : 
+TRACE::2020-07-21.17:51:17::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-07-21.17:51:17::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:17::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2020-07-21.17:51:17::SCWPlatform::Generating the sources  .
+TRACE::2020-07-21.17:51:17::SCWBDomain::Generating boot domain sources.
+TRACE::2020-07-21.17:51:17::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:17::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:17::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-07-21.17:51:17::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::mss does not exists at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::Creating sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::Adding the swdes entry, created swdb C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::Writing mss at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:17::SCWMssOS::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-07-21.17:51:17::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-07-21.17:51:17::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-07-21.17:51:17::SCWBDomain::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-07-21.17:51:26::SCWPlatform::Generating sources Done.
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss||
+
+KEYINFO::2020-07-21.17:51:26::SCWMssOS::Could not open the swdb for C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+KEYINFO::2020-07-21.17:51:26::SCWMssOS::Could not open the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss is not found
+
+TRACE::2020-07-21.17:51:26::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-07-21.17:51:26::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-07-21.17:51:26::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:26::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:26::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:26::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:26::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-07-21.17:51:26::SCWDomain::checking for install qemu data   : 
+TRACE::2020-07-21.17:51:26::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-07-21.17:51:26::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:26::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:26::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:26::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:26::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::mss does not exists at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Creating sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Adding the swdes entry, created swdb C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Writing mss at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:26::SCWMssOS::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp
+TRACE::2020-07-21.17:51:26::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2020-07-21.17:51:27::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:27::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:27::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:27::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:27::SCWMssOS::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp
+TRACE::2020-07-21.17:51:27::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2020-07-21.17:51:29::SCWPlatform::Started generating the artifacts platform TFG2020
+TRACE::2020-07-21.17:51:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-07-21.17:51:29::SCWPlatform::Started generating the artifacts for system configuration TFG2020
+LOG::2020-07-21.17:51:29::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-07-21.17:51:29::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-07-21.17:51:29::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-07-21.17:51:29::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2020-07-21.17:51:29::SCWSystem::Checking the domain standalone_domain
+LOG::2020-07-21.17:51:29::SCWSystem::Not a boot domain 
+LOG::2020-07-21.17:51:29::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-07-21.17:51:29::SCWDomain::Generating domain artifcats
+TRACE::2020-07-21.17:51:29::SCWMssOS::Generating standalone artifcats
+TRACE::2020-07-21.17:51:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/qemu/
+TRACE::2020-07-21.17:51:29::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/standalone_domain/qemu/
+TRACE::2020-07-21.17:51:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:29::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-07-21.17:51:29::SCWMssOS::Could not open the swdb for C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2020-07-21.17:51:29::SCWMssOS::Could not open the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2020-07-21.17:51:29::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-07-21.17:51:29::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-07-21.17:51:29::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:29::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp
+TRACE::2020-07-21.17:51:29::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-07-21.17:51:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-07-21.17:51:29::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2020-07-21.17:51:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2020-07-21.17:51:29::SCWMssOS::Copying to export directory.
+TRACE::2020-07-21.17:51:29::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-07-21.17:51:29::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2020-07-21.17:51:29::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2020-07-21.17:51:29::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-07-21.17:51:29::SCWSystem::Completed Processing the sysconfig TFG2020
+LOG::2020-07-21.17:51:29::SCWPlatform::Completed generating the artifacts for system configuration TFG2020
+TRACE::2020-07-21.17:51:29::SCWPlatform::Started preparing the platform 
+TRACE::2020-07-21.17:51:29::SCWSystem::Writing the bif file for system config TFG2020
+TRACE::2020-07-21.17:51:29::SCWSystem::dir created 
+TRACE::2020-07-21.17:51:29::SCWSystem::Writing the bif 
+TRACE::2020-07-21.17:51:29::SCWPlatform::Started writing the spfm file 
+TRACE::2020-07-21.17:51:29::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-07-21.17:51:29::SCWPlatform::Completed generating the platform
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:29::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:29::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:29::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:29::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:29::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:29::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:29::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:29::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:29::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"788d4b6a439f300992aeb321566d94ce",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-07-21.17:51:30::SCWPlatform::updated the xpfm file.
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"788d4b6a439f300992aeb321566d94ce",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"788d4b6a439f300992aeb321566d94ce",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:30::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:30::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:30::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:30::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:30::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:31::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:31::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:31::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:31::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:31::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:31::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:31::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2020-07-21.17:51:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:31::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:31::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"788d4b6a439f300992aeb321566d94ce",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2020-07-21.17:51:31::SCWPlatform::Clearing the existing platform
+TRACE::2020-07-21.17:51:31::SCWSystem::Clearing the existing sysconfig
+TRACE::2020-07-21.17:51:31::SCWBDomain::clearing the fsbl build
+TRACE::2020-07-21.17:51:31::SCWMssOS::Removing the swdes entry for  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWMssOS::Removing the swdes entry for  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:31::SCWSystem::Clearing the domains completed.
+TRACE::2020-07-21.17:51:31::SCWPlatform::Clearing the opened hw db.
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform location is C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Removing the HwDB with name C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:31::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:31::SCWPlatform::Do not have an existing db opened. 
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened new HwDB with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWReader::Active system found as  TFG2020
+TRACE::2020-07-21.17:51:33::SCWReader::Handling sysconfig TFG2020
+TRACE::2020-07-21.17:51:33::SCWDomain::checking for install qemu data   : 
+TRACE::2020-07-21.17:51:33::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-07-21.17:51:33::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2020-07-21.17:51:33::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2020-07-21.17:51:33::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:33::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:33::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:33::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:33::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2020-07-21.17:51:33::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-07-21.17:51:33::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:33::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:33::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:33::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWReader::No isolation master present  
+TRACE::2020-07-21.17:51:34::SCWDomain::checking for install qemu data   : 
+TRACE::2020-07-21.17:51:34::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2020-07-21.17:51:34::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-07-21.17:51:34::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:34::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2020-07-21.17:51:34::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWReader::No isolation master present  
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::In reload Mss file.
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2020-07-21.17:51:34::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2020-07-21.17:51:34::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2020-07-21.17:51:34::SCWMssOS::Cleared the swdb table entry
+TRACE::2020-07-21.17:51:34::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-07-21.17:51:34::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:34::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:34::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:34::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:34::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:34::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:35::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::Removing the swdes entry for  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::In reload Mss file.
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:35::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:35::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-07-21.17:51:35::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:35::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:35::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:35::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::Removing the swdes entry for  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2020-07-21.17:51:35::SCWPlatform::Started generating the artifacts platform TFG2020
+TRACE::2020-07-21.17:51:35::SCWPlatform::Sanity checking of platform is completed
+LOG::2020-07-21.17:51:35::SCWPlatform::Started generating the artifacts for system configuration TFG2020
+LOG::2020-07-21.17:51:35::SCWSystem::Checking the domain zynq_fsbl
+LOG::2020-07-21.17:51:35::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2020-07-21.17:51:35::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-07-21.17:51:35::SCWDomain::Building the domain as part of full build :  zynq_fsbl
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:35::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:35::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:35::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:35::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:35::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:51:35::SCWBDomain::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2020-07-21.17:51:35::SCWBDomain::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-07-21.17:51:35::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2020-07-21.17:51:35::SCWBDomain::System Command Ran  C:&  cd  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl & make 
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C zynq_fsbl_bsp
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[1]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none
+TRACE::2020-07-21.17:51:36::SCWBDomain::-eabi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=h
+TRACE::2020-07-21.17:51:36::SCWBDomain::ard -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2020-07-21.17:51:36::SCWBDomain::c_v1_6/src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc
+TRACE::2020-07-21.17:51:36::SCWBDomain::_v1_6/src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-07-21.17:51:36::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-07-21.17:51:36::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2020-07-21.17:51:36::SCWBDomain::2_8/src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2
+TRACE::2020-07-21.17:51:36::SCWBDomain::_8/src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-07-21.17:51:36::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-07-21.17:51:36::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+TRACE::2020-07-21.17:51:36::SCWBDomain::
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:36::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-07-21.17:51:36::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-07-21.17:51:36::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+TRACE::2020-07-21.17:51:36::SCWBDomain::
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-07-21.17:51:36::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-07-21.17:51:36::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/s
+TRACE::2020-07-21.17:51:36::SCWBDomain::rc'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:36::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:36::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:36::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-a
+TRACE::2020-07-21.17:51:36::SCWBDomain::s" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -no
+TRACE::2020-07-21.17:51:36::SCWBDomain::startfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/
+TRACE::2020-07-21.17:51:36::SCWBDomain::src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/s
+TRACE::2020-07-21.17:51:36::SCWBDomain::rc'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:36::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:36::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/sr
+TRACE::2020-07-21.17:51:36::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+TRACE::2020-07-21.17:51:36::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-07-21.17:51:36::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-07-21.17:51:36::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+TRACE::2020-07-21.17:51:36::SCWBDomain::
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi
+TRACE::2020-07-21.17:51:36::SCWBDomain::-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -
+TRACE::2020-07-21.17:51:36::SCWBDomain::nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:36::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-07-21.17:51:36::SCWBDomain::1/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[3]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-07-21.17:51:37::SCWBDomain::1/src/profile'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[3]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1
+TRACE::2020-07-21.17:51:37::SCWBDomain::/src/profile'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1
+TRACE::2020-07-21.17:51:37::SCWBDomain::/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:37::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:37::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-07-21.17:51:37::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-07-21.17:51:37::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src'
+TRACE::2020-07-21.17:51:37::SCWBDomain::
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:37::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:37::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make include in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as"
+TRACE::2020-07-21.17:51:37::SCWBDomain:: "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nost
+TRACE::2020-07-21.17:51:37::SCWBDomain::artfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-ea
+TRACE::2020-07-21.17:51:37::SCWBDomain::bi-as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard
+TRACE::2020-07-21.17:51:37::SCWBDomain:: -nostartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dc
+TRACE::2020-07-21.17:51:37::SCWBDomain::c_v1_6/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Compiling coresightps_dcc"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/coresightps_dcc
+TRACE::2020-07-21.17:51:37::SCWBDomain::_v1_6/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-
+TRACE::2020-07-21.17:51:37::SCWBDomain::as" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -n
+TRACE::2020-07-21.17:51:37::SCWBDomain::ostartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v
+TRACE::2020-07-21.17:51:37::SCWBDomain::2_8/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Compiling cpu_cortexa9"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/cpu_cortexa9_v2
+TRACE::2020-07-21.17:51:37::SCWBDomain::_8/src'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-07-21.17:51:37::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-07-21.17:51:37::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+TRACE::2020-07-21.17:51:37::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Compiling ddrps"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ddrps_v1_0/src'
+TRACE::2020-07-21.17:51:37::SCWBDomain::
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:37::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:37::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/sr
+TRACE::2020-07-21.17:51:37::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:37::SCWBDomain::"Compiling devcfg"
+
+TRACE::2020-07-21.17:51:38::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+TRACE::2020-07-21.17:51:38::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:38::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_5/src"
+
+TRACE::2020-07-21.17:51:38::SCWBDomain::make -C ps7_cortexa9_0/libsrc/dmaps_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-07-21.17:51:38::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-07-21.17:51:38::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:38::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src
+TRACE::2020-07-21.17:51:38::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:38::SCWBDomain::"Compiling dmaps"
+
+TRACE::2020-07-21.17:51:39::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/dmaps_v2_5/src'
+TRACE::2020-07-21.17:51:39::SCWBDomain::
+
+TRACE::2020-07-21.17:51:39::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_10/src"
+
+TRACE::2020-07-21.17:51:39::SCWBDomain::make -C ps7_cortexa9_0/libsrc/emacps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "
+TRACE::2020-07-21.17:51:39::SCWBDomain::ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostar
+TRACE::2020-07-21.17:51:39::SCWBDomain::tfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:39::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/s
+TRACE::2020-07-21.17:51:39::SCWBDomain::rc'
+
+TRACE::2020-07-21.17:51:39::SCWBDomain::"Compiling emacps"
+
+TRACE::2020-07-21.17:51:41::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/emacps_v3_10/sr
+TRACE::2020-07-21.17:51:41::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:41::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_6/src"
+
+TRACE::2020-07-21.17:51:41::SCWBDomain::make -C ps7_cortexa9_0/libsrc/gpiops_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:41::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:41::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:41::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/sr
+TRACE::2020-07-21.17:51:41::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:41::SCWBDomain::"Compiling gpiops"
+
+TRACE::2020-07-21.17:51:42::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/gpiops_v3_6/src
+TRACE::2020-07-21.17:51:42::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:42::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+
+TRACE::2020-07-21.17:51:42::SCWBDomain::make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:42::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:42::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:42::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/sr
+TRACE::2020-07-21.17:51:42::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:42::SCWBDomain::"Compiling qspips"
+
+TRACE::2020-07-21.17:51:43::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/qspips_v3_6/src
+TRACE::2020-07-21.17:51:43::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:43::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_1/src"
+
+TRACE::2020-07-21.17:51:43::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scugic_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:43::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:43::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:43::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/sr
+TRACE::2020-07-21.17:51:43::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:43::SCWBDomain::"Compiling scugic"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scugic_v4_1/src
+TRACE::2020-07-21.17:51:44::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" 
+TRACE::2020-07-21.17:51:44::SCWBDomain::"ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nosta
+TRACE::2020-07-21.17:51:44::SCWBDomain::rtfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/
+TRACE::2020-07-21.17:51:44::SCWBDomain::src'
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::"Compiling scutimer"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scutimer_v2_1/s
+TRACE::2020-07-21.17:51:44::SCWBDomain::rc'
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:44::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:44::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/sr
+TRACE::2020-07-21.17:51:44::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:44::SCWBDomain::"Compiling scuwdt"
+
+TRACE::2020-07-21.17:51:45::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+TRACE::2020-07-21.17:51:45::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:45::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_8/src"
+
+TRACE::2020-07-21.17:51:45::SCWBDomain::make -C ps7_cortexa9_0/libsrc/sdps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "ARC
+TRACE::2020-07-21.17:51:45::SCWBDomain::HIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfi
+TRACE::2020-07-21.17:51:45::SCWBDomain::les -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:45::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+TRACE::2020-07-21.17:51:45::SCWBDomain::
+
+TRACE::2020-07-21.17:51:45::SCWBDomain::"Compiling sdps"
+
+TRACE::2020-07-21.17:51:46::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/sdps_v3_8/src'
+
+TRACE::2020-07-21.17:51:46::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-07-21.17:51:46::SCWBDomain::make -C ps7_cortexa9_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as
+TRACE::2020-07-21.17:51:46::SCWBDomain::" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nos
+TRACE::2020-07-21.17:51:46::SCWBDomain::tartfiles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:46::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_
+TRACE::2020-07-21.17:51:46::SCWBDomain::1/src'
+
+TRACE::2020-07-21.17:51:46::SCWBDomain::"Compiling standalone"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/standalone_v7_1
+TRACE::2020-07-21.17:51:51::SCWBDomain::/src'
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_10/src"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/ttcps_v3_10/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:51::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:51::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/sr
+TRACE::2020-07-21.17:51:51::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::"Compiling ttcps"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/ttcps_v3_10/src
+TRACE::2020-07-21.17:51:51::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_8/src"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make -C ps7_cortexa9_0/libsrc/uartps_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:51::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:51::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/sr
+TRACE::2020-07-21.17:51:51::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:51::SCWBDomain::"Compiling uartps"
+
+TRACE::2020-07-21.17:51:53::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/uartps_v3_8/src
+TRACE::2020-07-21.17:51:53::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:53::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+
+TRACE::2020-07-21.17:51:53::SCWBDomain::make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "AR
+TRACE::2020-07-21.17:51:53::SCWBDomain::CHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartf
+TRACE::2020-07-21.17:51:53::SCWBDomain::iles -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:53::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src
+TRACE::2020-07-21.17:51:53::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:53::SCWBDomain::"Compiling usbps"
+
+TRACE::2020-07-21.17:51:54::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/usbps_v2_4/src'
+TRACE::2020-07-21.17:51:54::SCWBDomain::
+
+TRACE::2020-07-21.17:51:54::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+
+TRACE::2020-07-21.17:51:54::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:54::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:54::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:54::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/sr
+TRACE::2020-07-21.17:51:54::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:54::SCWBDomain::"Compiling xadcps"
+
+TRACE::2020-07-21.17:51:55::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+TRACE::2020-07-21.17:51:55::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:55::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v4_2/src"
+
+TRACE::2020-07-21.17:51:55::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilffs_v4_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:55::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:55::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:55::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/sr
+TRACE::2020-07-21.17:51:55::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:55::SCWBDomain::"Compiling XilFFs Library"
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilffs_v4_2/src
+TRACE::2020-07-21.17:51:57::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::"Running Make libs in ps7_cortexa9_0/libsrc/xilrsa_v1_5/src"
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::make -C ps7_cortexa9_0/libsrc/xilrsa_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ASSEMBLER=arm-none-eabi-as" "A
+TRACE::2020-07-21.17:51:57::SCWBDomain::RCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostart
+TRACE::2020-07-21.17:51:57::SCWBDomain::files -g -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::make[2]: Entering directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/sr
+TRACE::2020-07-21.17:51:57::SCWBDomain::c'
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::make[2]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/xilrsa_v1_5/src
+TRACE::2020-07-21.17:51:57::SCWBDomain::'
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::'Finished building libraries'
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::make[1]: Leaving directory 'C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp'
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c sd.c -o sd.o -Izynq_fsbl_bsp/ps7_cortexa9_0/
+TRACE::2020-07-21.17:51:57::SCWBDomain::include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nand.c -o nand.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-07-21.17:51:57::SCWBDomain::9_0/include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c nor.c -o nor.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-07-21.17:51:57::SCWBDomain::0/include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c image_mover.c -o image_mover.o -Izynq_fsbl_b
+TRACE::2020-07-21.17:51:57::SCWBDomain::sp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c md5.c -o md5.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-07-21.17:51:57::SCWBDomain::0/include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_hooks.c -o fsbl_hooks.o -Izynq_fsbl_bsp
+TRACE::2020-07-21.17:51:57::SCWBDomain::/ps7_cortexa9_0/include -I.
+
+TRACE::2020-07-21.17:51:57::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c main.c -o main.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-07-21.17:51:57::SCWBDomain::9_0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c rsa.c -o rsa.o -Izynq_fsbl_bsp/ps7_cortexa9_
+TRACE::2020-07-21.17:51:58::SCWBDomain::0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c qspi.c -o qspi.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-07-21.17:51:58::SCWBDomain::9_0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c ps7_init.c -o ps7_init.o -Izynq_fsbl_bsp/ps7
+TRACE::2020-07-21.17:51:58::SCWBDomain::_cortexa9_0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c pcap.c -o pcap.o -Izynq_fsbl_bsp/ps7_cortexa
+TRACE::2020-07-21.17:51:58::SCWBDomain::9_0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -c fsbl_handoff.S -o fsbl_handoff.o -Izynq_fsbl
+TRACE::2020-07-21.17:51:58::SCWBDomain::_bsp/ps7_cortexa9_0/include -I.
+
+TRACE::2020-07-21.17:51:58::SCWBDomain::arm-none-eabi-gcc -o executable.elf  sd.o  nand.o  nor.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  rsa.o  qspi.o  ps7_init.o
+TRACE::2020-07-21.17:51:58::SCWBDomain::  pcap.o  fsbl_handoff.o -MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard   -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=
+TRACE::2020-07-21.17:51:58::SCWBDomain::hard -Wl,-build-id=none -specs=Xilinx.spec  -lrsa -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxi
+TRACE::2020-07-21.17:51:58::SCWBDomain::l,-lgcc,-lc,--end-group -Wl,--start-group,-lrsa,-lxil,-lgcc,-lc,--end-group                                    -Wl,--gc-section
+TRACE::2020-07-21.17:51:58::SCWBDomain::s -Lzynq_fsbl_bsp/ps7_cortexa9_0/lib -L./ -Tlscript.ld
+
+LOG::2020-07-21.17:51:58::SCWSystem::Checking the domain standalone_domain
+LOG::2020-07-21.17:51:58::SCWSystem::Not a boot domain 
+LOG::2020-07-21.17:51:58::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2020-07-21.17:51:58::SCWDomain::Generating domain artifcats
+TRACE::2020-07-21.17:51:58::SCWMssOS::Generating standalone artifcats
+TRACE::2020-07-21.17:51:58::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/qemu/
+TRACE::2020-07-21.17:51:58::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To C:/Users/umber/ZYBO_WORKSPACE/TFG2020/export/TFG2020/sw/TFG2020/standalone_domain/qemu/
+TRACE::2020-07-21.17:51:58::SCWMssOS:: Copying the user libraries. 
+TRACE::2020-07-21.17:51:58::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:58::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:58::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:58::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:51:58::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:51:58::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:51:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:51:58::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:51:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:51:58::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::No sw design opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::mss exists loading the mss file  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::Opened the sw design from mss  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::Adding the swdes entry C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2020-07-21.17:51:58::SCWMssOS::updating the scw layer about changes
+TRACE::2020-07-21.17:51:58::SCWMssOS::Opened the sw design.  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::Completed writing the mss file at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp
+TRACE::2020-07-21.17:51:58::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:51:58::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2020-07-21.17:51:58::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2020-07-21.17:51:58::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2020-07-21.17:51:58::SCWMssOS::doing bsp build ... 
+TRACE::2020-07-21.17:51:58::SCWMssOS::System Command Ran  C: & cd  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp & make 
+TRACE::2020-07-21.17:51:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/axidma_v9_10/src"
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-07-21.17:51:58::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2020-07-21.17:51:58::SCWMssOS::ll -Wextra"
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-07-21.17:51:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-07-21.17:51:58::SCWMssOS::-Wextra"
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-07-21.17:51:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-07-21.17:51:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-07-21.17:51:58::SCWMssOS::-Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-07-21.17:51:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-07-21.17:51:59::SCWMssOS::-Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/iic_v3_5/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-07-21.17:51:59::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2020-07-21.17:51:59::SCWMssOS::Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-07-21.17:51:59::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-07-21.17:51:59::SCWMssOS:: -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/led_display_v1_0/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/led_display_v1_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "
+TRACE::2020-07-21.17:51:59::SCWMssOS::COMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections
+TRACE::2020-07-21.17:51:59::SCWMssOS:: -Wall -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/llfifo_v5_3/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/llfifo_v5_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-07-21.17:51:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2020-07-21.17:51:59::SCWMssOS::l -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2020-07-21.17:51:59::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2020-07-21.17:51:59::SCWMssOS::-Wall -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2020-07-21.17:51:59::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2020-07-21.17:51:59::SCWMssOS::l -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-07-21.17:51:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-07-21.17:51:59::SCWMssOS::all -Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/axidma_v9_10/src"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::make -C microblaze_0/libsrc/axidma_v9_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2020-07-21.17:51:59::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2020-07-21.17:51:59::SCWMssOS::-Wextra"
+
+TRACE::2020-07-21.17:51:59::SCWMssOS::"Compiling axidma"
+
+TRACE::2020-07-21.17:52:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2020-07-21.17:52:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-07-21.17:52:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-07-21.17:52:00::SCWMssOS::xtra"
+
+TRACE::2020-07-21.17:52:00::SCWMssOS::"Compiling bram"
+
+TRACE::2020-07-21.17:52:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2020-07-21.17:52:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-07-21.17:52:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-07-21.17:52:01::SCWMssOS::xtra"
+
+TRACE::2020-07-21.17:52:01::SCWMssOS::"Compiling cpu"
+
+TRACE::2020-07-21.17:52:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2020-07-21.17:52:01::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2020-07-21.17:52:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2020-07-21.17:52:01::SCWMssOS::xtra"
+
+TRACE::2020-07-21.17:52:01::SCWMssOS::"Compiling gpio"
+
+TRACE::2020-07-21.17:52:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/iic_v3_5/src"
+
+TRACE::2020-07-21.17:52:02::SCWMssOS::make -C microblaze_0/libsrc/iic_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2020-07-21.17:52:02::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2020-07-21.17:52:02::SCWMssOS::tra"
+
+TRACE::2020-07-21.17:52:02::SCWMssOS::"Compiling iic"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_10/src"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2020-07-21.17:52:03::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2020-07-21.17:52:03::SCWMssOS::extra"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::"Compiling intc"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/led_display_v1_0/src"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::make -C microblaze_0/libsrc/led_display_v1_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2020-07-21.17:52:03::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2020-07-21.17:52:03::SCWMssOS::all -Wextra"
+
+TRACE::2020-07-21.17:52:03::SCWMssOS::"Compiling led_display..."
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/llfifo_v5_3/src"
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::make -C microblaze_0/libsrc/llfifo_v5_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-07-21.17:52:04::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2020-07-21.17:52:04::SCWMssOS::Wextra"
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::"Compiling llfifo"
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2020-07-21.17:52:04::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2020-07-21.17:52:04::SCWMssOS::ll -Wextra"
+
+TRACE::2020-07-21.17:52:04::SCWMssOS::"Compiling standalone";
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_5/src"
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2020-07-21.17:52:07::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2020-07-21.17:52:07::SCWMssOS::Wextra"
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::"Compiling tmrctr"
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2020-07-21.17:52:07::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2020-07-21.17:52:07::SCWMssOS:: -Wextra"
+
+TRACE::2020-07-21.17:52:07::SCWMssOS::"Compiling uartlite"
+
+TRACE::2020-07-21.17:52:08::SCWMssOS::'Finished building libraries'
+
+TRACE::2020-07-21.17:52:08::SCWMssOS::Copying to export directory.
+TRACE::2020-07-21.17:52:08::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2020-07-21.17:52:08::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2020-07-21.17:52:08::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2020-07-21.17:52:08::SCWSystem::Completed Processing the sysconfig TFG2020
+LOG::2020-07-21.17:52:08::SCWPlatform::Completed generating the artifacts for system configuration TFG2020
+TRACE::2020-07-21.17:52:08::SCWPlatform::Started preparing the platform 
+TRACE::2020-07-21.17:52:08::SCWSystem::Writing the bif file for system config TFG2020
+TRACE::2020-07-21.17:52:08::SCWSystem::dir created 
+TRACE::2020-07-21.17:52:08::SCWSystem::Writing the bif 
+TRACE::2020-07-21.17:52:08::SCWPlatform::Started writing the spfm file 
+TRACE::2020-07-21.17:52:08::SCWPlatform::Started writing the xpfm file 
+TRACE::2020-07-21.17:52:08::SCWPlatform::Completed generating the platform
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:52:08::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:52:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:52:08::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:52:08::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:52:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:52:08::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:52:08::SCWWriter::formatted JSON is {
+	"platformName":	"TFG2020",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"TFG2020",
+	"platHandOff":	"C:/Users/umber/OneDrive/Desktop/project/work_dir/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"TFG2020",
+	"systems":	[{
+			"systemName":	"TFG2020",
+			"systemDesc":	"TFG2020",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"TFG2020",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"3b09af7ce7cf9c0b911f9219d92f4761",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"788d4b6a439f300992aeb321566d94ce",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2020-07-21.17:52:08::SCWPlatform::updated the xpfm file.
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to open the hw design at C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA given C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA absoulate path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform::DSA directory C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Platform Path C:/Users/umber/ZYBO_WORKSPACE/TFG2020/hw/design_1_wrapper.xsa
+TRACE::2020-07-21.17:52:08::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2020-07-21.17:52:08::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Opened existing hwdb design_1_wrapper_6
+TRACE::2020-07-21.17:52:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2020-07-21.17:52:08::SCWMssOS::Checking the sw design at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2020-07-21.17:52:08::SCWMssOS::DEBUG:  swdes dump  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/umber/ZYBO_WORKSPACE/TFG2020/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2020-07-21.17:52:08::SCWMssOS::Sw design exists and opened at  C:/Users/umber/ZYBO_WORKSPACE/TFG2020/microblaze_0/standalone_domain/bsp/system.mss
